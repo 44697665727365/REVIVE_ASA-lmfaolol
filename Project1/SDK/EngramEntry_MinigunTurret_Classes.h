@@ -1,0 +1,31 @@
+﻿#pragma once
+
+/**
+ * Name: Ark_Survival_Ascended
+ * Version: 0.1
+ */
+
+#ifdef _MSC_VER
+	#pragma pack(push, 0x01)
+#endif
+
+namespace CG
+{
+	// --------------------------------------------------
+	// # Classes
+	// --------------------------------------------------
+	/**
+	 * BlueprintGeneratedClass EngramEntry_MinigunTurret.EngramEntry_MinigunTurret_C
+	 * Size -> 0x0000 (FullSize[0x0090] - InheritedSize[0x0090])
+	 */
+	class UEngramEntry_MinigunTurret_C : public UPrimalEngramEntry
+	{
+	public:
+		static UClass* StaticClass();
+	};
+
+}
+
+#ifdef _MSC_VER
+	#pragma pack(pop)
+#endif

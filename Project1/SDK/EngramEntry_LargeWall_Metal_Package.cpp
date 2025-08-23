@@ -1,0 +1,29 @@
+﻿/**
+ * Name: Ark_Survival_Ascended
+ * Version: 0.1
+ */
+
+#include "pch.h"
+
+namespace CG
+{
+	// --------------------------------------------------
+	// # Structs Functions
+	// --------------------------------------------------
+	/**
+	 * Function:
+	 * 		RVA    -> 0x00000000
+	 * 		Name   -> PredefinedFunction UEngramEntry_LargeWall_Metal_C.StaticClass
+	 * 		Flags  -> (Predefined, Static)
+	 */
+	UClass* UEngramEntry_LargeWall_Metal_C::StaticClass()
+	{
+		static UClass* ptr = nullptr;
+		if (!ptr)
+			ptr = UObject::FindClass("BlueprintGeneratedClass EngramEntry_LargeWall_Metal.EngramEntry_LargeWall_Metal_C");
+		return ptr;
+	}
+
+}
+
+

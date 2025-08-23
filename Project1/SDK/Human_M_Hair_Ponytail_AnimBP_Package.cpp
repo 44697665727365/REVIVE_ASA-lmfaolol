@@ -1,0 +1,160 @@
+﻿/**
+ * Name: Ark_Survival_Ascended
+ * Version: 0.1
+ */
+
+#include "pch.h"
+
+namespace CG
+{
+	// --------------------------------------------------
+	// # Structs Functions
+	// --------------------------------------------------
+	/**
+	 * Function:
+	 * 		RVA    -> 0x04091020
+	 * 		Name   -> Function Human_M_Hair_Ponytail_AnimBP.Human_M_Hair_Ponytail_AnimBP_C.AnimGraph
+	 * 		Flags  -> (HasOutParms, BlueprintCallable, BlueprintEvent)
+	 * Parameters:
+	 * 		struct FPoseLink                                   AnimGraph                                                  (Parm, OutParm, NoDestructor)
+	 */
+	void UHuman_M_Hair_Ponytail_AnimBP_C::AnimGraph(struct FPoseLink* AnimGraph)
+	{
+		static UFunction* fn = nullptr;
+		if (!fn)
+			fn = UObject::FindObject<UFunction>("Function Human_M_Hair_Ponytail_AnimBP.Human_M_Hair_Ponytail_AnimBP_C.AnimGraph");
+		
+		UHuman_M_Hair_Ponytail_AnimBP_C_AnimGraph_Params params {};
+		
+		auto flags = fn->FunctionFlags;
+		UObject::ProcessEvent(fn, &params);
+		fn->FunctionFlags = flags;
+		
+		if (AnimGraph != nullptr)
+			*AnimGraph = params.AnimGraph;
+	}
+
+	/**
+	 * Function:
+	 * 		RVA    -> 0x04091020
+	 * 		Name   -> Function Human_M_Hair_Ponytail_AnimBP.Human_M_Hair_Ponytail_AnimBP_C.NoiseGen
+	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
+	 * Parameters:
+	 * 		double                                             DeltaTime                                                  (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	 */
+	void UHuman_M_Hair_Ponytail_AnimBP_C::NoiseGen(double DeltaTime)
+	{
+		static UFunction* fn = nullptr;
+		if (!fn)
+			fn = UObject::FindObject<UFunction>("Function Human_M_Hair_Ponytail_AnimBP.Human_M_Hair_Ponytail_AnimBP_C.NoiseGen");
+		
+		UHuman_M_Hair_Ponytail_AnimBP_C_NoiseGen_Params params {};
+		params.DeltaTime = DeltaTime;
+		
+		auto flags = fn->FunctionFlags;
+		UObject::ProcessEvent(fn, &params);
+		fn->FunctionFlags = flags;
+	}
+
+	/**
+	 * Function:
+	 * 		RVA    -> 0x04091020
+	 * 		Name   -> Function Human_M_Hair_Ponytail_AnimBP.Human_M_Hair_Ponytail_AnimBP_C.BlueprintThreadSafeUpdateAnimation
+	 * 		Flags  -> (Event, Public, BlueprintCallable, BlueprintEvent)
+	 * Parameters:
+	 * 		float                                              DeltaTime                                                  (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	 */
+	void UHuman_M_Hair_Ponytail_AnimBP_C::BlueprintThreadSafeUpdateAnimation(float DeltaTime)
+	{
+		static UFunction* fn = nullptr;
+		if (!fn)
+			fn = UObject::FindObject<UFunction>("Function Human_M_Hair_Ponytail_AnimBP.Human_M_Hair_Ponytail_AnimBP_C.BlueprintThreadSafeUpdateAnimation");
+		
+		UHuman_M_Hair_Ponytail_AnimBP_C_BlueprintThreadSafeUpdateAnimation_Params params {};
+		params.DeltaTime = DeltaTime;
+		
+		auto flags = fn->FunctionFlags;
+		UObject::ProcessEvent(fn, &params);
+		fn->FunctionFlags = flags;
+	}
+
+	/**
+	 * Function:
+	 * 		RVA    -> 0x04091020
+	 * 		Name   -> Function Human_M_Hair_Ponytail_AnimBP.Human_M_Hair_Ponytail_AnimBP_C.BlueprintInitializeAnimation
+	 * 		Flags  -> (Event, Public, BlueprintEvent)
+	 */
+	void UHuman_M_Hair_Ponytail_AnimBP_C::BlueprintInitializeAnimation()
+	{
+		static UFunction* fn = nullptr;
+		if (!fn)
+			fn = UObject::FindObject<UFunction>("Function Human_M_Hair_Ponytail_AnimBP.Human_M_Hair_Ponytail_AnimBP_C.BlueprintInitializeAnimation");
+		
+		UHuman_M_Hair_Ponytail_AnimBP_C_BlueprintInitializeAnimation_Params params {};
+		
+		auto flags = fn->FunctionFlags;
+		UObject::ProcessEvent(fn, &params);
+		fn->FunctionFlags = flags;
+	}
+
+	/**
+	 * Function:
+	 * 		RVA    -> 0x04091020
+	 * 		Name   -> Function Human_M_Hair_Ponytail_AnimBP.Human_M_Hair_Ponytail_AnimBP_C.BlueprintUpdateAnimation
+	 * 		Flags  -> (Event, Public, BlueprintEvent)
+	 * Parameters:
+	 * 		float                                              DeltaTimeX                                                 (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	 */
+	void UHuman_M_Hair_Ponytail_AnimBP_C::BlueprintUpdateAnimation(float DeltaTimeX)
+	{
+		static UFunction* fn = nullptr;
+		if (!fn)
+			fn = UObject::FindObject<UFunction>("Function Human_M_Hair_Ponytail_AnimBP.Human_M_Hair_Ponytail_AnimBP_C.BlueprintUpdateAnimation");
+		
+		UHuman_M_Hair_Ponytail_AnimBP_C_BlueprintUpdateAnimation_Params params {};
+		params.DeltaTimeX = DeltaTimeX;
+		
+		auto flags = fn->FunctionFlags;
+		UObject::ProcessEvent(fn, &params);
+		fn->FunctionFlags = flags;
+	}
+
+	/**
+	 * Function:
+	 * 		RVA    -> 0x04091020
+	 * 		Name   -> Function Human_M_Hair_Ponytail_AnimBP.Human_M_Hair_Ponytail_AnimBP_C.ExecuteUbergraph_Human_M_Hair_Ponytail_AnimBP
+	 * 		Flags  -> (Final)
+	 * Parameters:
+	 * 		int32_t                                            EntryPoint                                                 (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	 */
+	void UHuman_M_Hair_Ponytail_AnimBP_C::ExecuteUbergraph_Human_M_Hair_Ponytail_AnimBP(int32_t EntryPoint)
+	{
+		static UFunction* fn = nullptr;
+		if (!fn)
+			fn = UObject::FindObject<UFunction>("Function Human_M_Hair_Ponytail_AnimBP.Human_M_Hair_Ponytail_AnimBP_C.ExecuteUbergraph_Human_M_Hair_Ponytail_AnimBP");
+		
+		UHuman_M_Hair_Ponytail_AnimBP_C_ExecuteUbergraph_Human_M_Hair_Ponytail_AnimBP_Params params {};
+		params.EntryPoint = EntryPoint;
+		
+		auto flags = fn->FunctionFlags;
+		UObject::ProcessEvent(fn, &params);
+		fn->FunctionFlags = flags;
+	}
+
+	/**
+	 * Function:
+	 * 		RVA    -> 0x00000000
+	 * 		Name   -> PredefinedFunction UHuman_M_Hair_Ponytail_AnimBP_C.StaticClass
+	 * 		Flags  -> (Predefined, Static)
+	 */
+	UClass* UHuman_M_Hair_Ponytail_AnimBP_C::StaticClass()
+	{
+		static UClass* ptr = nullptr;
+		if (!ptr)
+			ptr = UObject::FindClass("AnimBlueprintGeneratedClass Human_M_Hair_Ponytail_AnimBP.Human_M_Hair_Ponytail_AnimBP_C");
+		return ptr;
+	}
+
+}
+
+

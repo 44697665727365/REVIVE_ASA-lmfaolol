@@ -1,0 +1,31 @@
+﻿#pragma once
+
+/**
+ * Name: Ark_Survival_Ascended
+ * Version: 0.1
+ */
+
+#ifdef _MSC_VER
+	#pragma pack(push, 0x01)
+#endif
+
+namespace CG
+{
+	// --------------------------------------------------
+	// # Classes
+	// --------------------------------------------------
+	/**
+	 * BlueprintGeneratedClass PrimalItemAmmo_ArrowStone_SOTF_Crossbow.PrimalItemAmmo_ArrowStone_SOTF_Crossbow_C
+	 * Size -> 0x0000 (FullSize[0x0EB0] - InheritedSize[0x0EB0])
+	 */
+	class UPrimalItemAmmo_ArrowStone_SOTF_Crossbow_C : public UPrimalItemAmmo_ArrowStone_SOTF_C
+	{
+	public:
+		static UClass* StaticClass();
+	};
+
+}
+
+#ifdef _MSC_VER
+	#pragma pack(pop)
+#endif

@@ -1,0 +1,378 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Main">
+      <UniqueIdentifier>{300cbb12-f2cb-4475-a69e-bcc67ed360d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Includes">
+      <UniqueIdentifier>{da5f6cbb-0965-497f-a3dc-dacf6d95ba48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Protection">
+      <UniqueIdentifier>{2122be0e-4741-46ef-8084-016d9453beb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities">
+      <UniqueIdentifier>{beffdc23-295f-4ff2-8a78-9374c021032f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK">
+      <UniqueIdentifier>{08691728-ba5b-4c30-99e8-18927d3e020e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modules">
+      <UniqueIdentifier>{a6598cfc-a34e-4c5f-9489-9922af34d309}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hooks">
+      <UniqueIdentifier>{f214b9cf-3064-4731-b919-1a4a55252e3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Menu">
+      <UniqueIdentifier>{73c8f906-dcb6-4f80-bd74-783e1d8170b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CheatBase">
+      <UniqueIdentifier>{b33c38eb-95e1-4d21-91ad-c892af222118}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NewMenu">
+      <UniqueIdentifier>{80acc355-6667-4ad2-9fa4-7d0e371e5c94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NewMenu\MenuItems">
+      <UniqueIdentifier>{4574b378-96cd-4a0a-ba43-defd5f9681f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NewMenu\Misc">
+      <UniqueIdentifier>{bf69bf93-7895-4c2b-aa5b-db3ed6596cbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JunkCode">
+      <UniqueIdentifier>{6042408f-5624-4a07-bc1a-969e12528314}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NoCRT">
+      <UniqueIdentifier>{a9dabb63-5641-4410-b9f6-9158750573c8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DllMain.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\memory.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\string.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="HookManager.cpp" />
+    <ClCompile Include="SDK\Engine_Package.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\ShooterGame_Package.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\BasicTypes_Package.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\CoreUObject_Package.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="ModuleBase.cpp">
+      <Filter>CheatBase</Filter>
+    </ClCompile>
+    <ClCompile Include="AimbotModule.cpp">
+      <Filter>Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerModule.cpp">
+      <Filter>Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="DinoModule.cpp">
+      <Filter>Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="StructureModule.cpp">
+      <Filter>Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="MovementModule.cpp">
+      <Filter>Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="LocalModule.cpp">
+      <Filter>Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="ChamsModule.cpp">
+      <Filter>Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="Globals.cpp">
+      <Filter>CheatBase</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuVars.cpp">
+      <Filter>CheatBase</Filter>
+    </ClCompile>
+    <ClCompile Include="Settings.cpp">
+      <Filter>CheatBase</Filter>
+    </ClCompile>
+    <ClCompile Include="ActorBase.cpp">
+      <Filter>CheatBase</Filter>
+    </ClCompile>
+    <ClCompile Include="AimbotHooks.cpp">
+      <Filter>Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawTransition.cpp">
+      <Filter>Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="MiscHooks.cpp">
+      <Filter>Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessHooks.cpp">
+      <Filter>Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="UserModule.cpp">
+      <Filter>Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="Rendering.cpp" />
+    <ClCompile Include="InventoryModule.cpp">
+      <Filter>Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="DinoFeaturesModule.cpp">
+      <Filter>Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="AutoModule.cpp">
+      <Filter>Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="SDKExtra.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="Config.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="SpyglassModule.cpp">
+      <Filter>Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="NewMenu.cpp">
+      <Filter>NewMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuItemBase.cpp">
+      <Filter>NewMenu\MenuItems</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuHelper.cpp">
+      <Filter>NewMenu\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="TabGroup.cpp">
+      <Filter>NewMenu\MenuItems</Filter>
+    </ClCompile>
+    <ClCompile Include="Tab.cpp">
+      <Filter>NewMenu\MenuItems</Filter>
+    </ClCompile>
+    <ClCompile Include="RadarModule.cpp">
+      <Filter>Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>NewMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="SliderBase.cpp">
+      <Filter>NewMenu\MenuItems</Filter>
+    </ClCompile>
+    <ClCompile Include="SliderFloat.cpp">
+      <Filter>NewMenu\MenuItems</Filter>
+    </ClCompile>
+    <ClCompile Include="SliderInt.cpp">
+      <Filter>NewMenu\MenuItems</Filter>
+    </ClCompile>
+    <ClCompile Include="Toggle.cpp">
+      <Filter>NewMenu\MenuItems</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>NewMenu\MenuItems</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo.cpp">
+      <Filter>NewMenu\MenuItems</Filter>
+    </ClCompile>
+    <ClCompile Include="Keybind.cpp">
+      <Filter>NewMenu\MenuItems</Filter>
+    </ClCompile>
+    <ClCompile Include="TextInput.cpp">
+      <Filter>NewMenu\MenuItems</Filter>
+    </ClCompile>
+    <ClCompile Include="AutoArmorModule.cpp">
+      <Filter>Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="SearchBar.cpp">
+      <Filter>NewMenu\MenuItems</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorPicker.cpp">
+      <Filter>NewMenu\MenuItems</Filter>
+    </ClCompile>
+    <ClCompile Include="StructureAutoModule.cpp">
+      <Filter>Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="AssetLoader.cpp">
+      <Filter>CheatBase</Filter>
+    </ClCompile>
+    <ClCompile Include="31l2m312.cpp">
+      <Filter>JunkCode</Filter>
+    </ClCompile>
+    <ClCompile Include="DOMBuilder.cpp">
+      <Filter>NewMenu</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Protection\LazyImport.h">
+      <Filter>Protection</Filter>
+    </ClInclude>
+    <ClInclude Include="Protection\Xors.h">
+      <Filter>Protection</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\memory.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\spoof_call.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\string.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="HookManager.h" />
+    <ClInclude Include="ModuleBase.h">
+      <Filter>CheatBase</Filter>
+    </ClInclude>
+    <ClInclude Include="ActorBase.h">
+      <Filter>CheatBase</Filter>
+    </ClInclude>
+    <ClInclude Include="AimbotModule.h">
+      <Filter>Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerModule.h">
+      <Filter>Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="DinoModule.h">
+      <Filter>Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="StructureModule.h">
+      <Filter>Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="MovementModule.h">
+      <Filter>Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="LocalModule.h">
+      <Filter>Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="ChamsModule.h">
+      <Filter>Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="Globals.h">
+      <Filter>CheatBase</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuVars.h">
+      <Filter>CheatBase</Filter>
+    </ClInclude>
+    <ClInclude Include="StructDefs.h">
+      <Filter>CheatBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Settings.h">
+      <Filter>CheatBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Modules.h">
+      <Filter>Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="UserModule.h">
+      <Filter>Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="Rendering.h" />
+    <ClInclude Include="InventoryModule.h">
+      <Filter>Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="DinoFeaturesModule.h">
+      <Filter>Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="AutoModule.h">
+      <Filter>Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="SDKExtra.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="SpyglassModule.h">
+      <Filter>Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="NewMenu.h">
+      <Filter>NewMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuItemBase.h">
+      <Filter>NewMenu\MenuItems</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuHelper.h">
+      <Filter>NewMenu\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="TabGroup.h">
+      <Filter>NewMenu\MenuItems</Filter>
+    </ClInclude>
+    <ClInclude Include="Tab.h">
+      <Filter>NewMenu\MenuItems</Filter>
+    </ClInclude>
+    <ClInclude Include="RadarModule.h">
+      <Filter>Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>NewMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="Toggle.h">
+      <Filter>NewMenu\MenuItems</Filter>
+    </ClInclude>
+    <ClInclude Include="SliderBase.h">
+      <Filter>NewMenu\MenuItems</Filter>
+    </ClInclude>
+    <ClInclude Include="SliderFloat.h">
+      <Filter>NewMenu\MenuItems</Filter>
+    </ClInclude>
+    <ClInclude Include="SliderInt.h">
+      <Filter>NewMenu\MenuItems</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>NewMenu\MenuItems</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo.h">
+      <Filter>NewMenu\MenuItems</Filter>
+    </ClInclude>
+    <ClInclude Include="Keybind.h">
+      <Filter>NewMenu\MenuItems</Filter>
+    </ClInclude>
+    <ClInclude Include="AutoArmorModule.h">
+      <Filter>Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="SearchBar.h">
+      <Filter>NewMenu\MenuItems</Filter>
+    </ClInclude>
+    <ClInclude Include="TextInput.h">
+      <Filter>NewMenu\MenuItems</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorPicker.h">
+      <Filter>NewMenu\MenuItems</Filter>
+    </ClInclude>
+    <ClInclude Include="StructureAutoModule.h">
+      <Filter>Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="AssetLoader.h">
+      <Filter>CheatBase</Filter>
+    </ClInclude>
+    <ClInclude Include="HudMenu.h">
+      <Filter>NewMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="HudMenu.cpp">
+      <Filter>NewMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="CRT.h">
+      <Filter>NoCRT</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>NoCRT</Filter>
+    </ClInclude>
+    <ClInclude Include="Imports.h">
+      <Filter>NoCRT</Filter>
+    </ClInclude>
+    <ClInclude Include="DOMBuilder.h">
+      <Filter>NewMenu</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="Utilities\spoof_call.asm">
+      <Filter>Utilities</Filter>
+    </MASM>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\README.md" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,23 @@
+﻿#pragma once
+
+/**
+ * Name: Ark_Survival_Ascended
+ * Version: 0.1
+ */
+
+#ifdef _MSC_VER
+	#pragma pack(push, 0x01)
+#endif
+
+namespace CG
+{
+}
+
+#ifdef _MSC_VER
+	#pragma pack(pop)
+#endif
+
+#include "STR_ArrayOfIntegers_Structs.h"
+#include "STR_ArrayOfIntegers_Classes.h"
+#include "STR_ArrayOfIntegers_Params.h"
+

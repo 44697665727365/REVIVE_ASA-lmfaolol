@@ -1,0 +1,31 @@
+﻿#pragma once
+
+/**
+ * Name: Ark_Survival_Ascended
+ * Version: 0.1
+ */
+
+#ifdef _MSC_VER
+	#pragma pack(push, 0x01)
+#endif
+
+namespace CG
+{
+	// --------------------------------------------------
+	// # Classes
+	// --------------------------------------------------
+	/**
+	 * BlueprintGeneratedClass PrimalItemArmor_MekBackpack_SiegeCannon.PrimalItemArmor_MekBackpack_SiegeCannon_C
+	 * Size -> 0x0000 (FullSize[0x0ED0] - InheritedSize[0x0ED0])
+	 */
+	class UPrimalItemArmor_MekBackpack_SiegeCannon_C : public UPrimalItemArmor_MekBackpack_Base_C
+	{
+	public:
+		static UClass* StaticClass();
+	};
+
+}
+
+#ifdef _MSC_VER
+	#pragma pack(pop)
+#endif

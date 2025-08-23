@@ -1,0 +1,44 @@
+﻿#pragma once
+
+/**
+ * Name: Ark_Survival_Ascended
+ * Version: 0.1
+ */
+
+#ifdef _MSC_VER
+	#pragma pack(push, 0x01)
+#endif
+
+namespace CG
+{
+	// --------------------------------------------------
+	// # Structs
+	// --------------------------------------------------
+	/**
+	 * UserDefinedStruct Struct_Ground_Attributes.Struct_Ground_Attributes
+	 * Size -> 0x0066
+	 */
+	struct FStruct_Ground_Attributes
+	{
+	public:
+		struct FColor                                              Color_24_4CD7CE00440677A7D40662B6041E0089;               // 0x0000(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		unsigned char                                              UnknownData_GQCF[0x4];                                   // 0x0004(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		double                                                     SandAmount_7_0763F84A4CB9FE5C89AAEAA3F4FA6FB5;           // 0x0008(0x0008) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     DustAmount_9_6103880148DC946C309F43BFBFC679B7;           // 0x0010(0x0008) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     LeavesDebrisAmount_15_62F0085A47CEB0989A53958D93A8F398;  // 0x0018(0x0008) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     GrassDebrisAmount_16_6CD2F8844B7C0788CC6FB8BC2F6FEC9F;   // 0x0020(0x0008) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     ThatchDebrisAmount_17_CF2CCD984EEA9C6A86124BAB436CE062;  // 0x0028(0x0008) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     PebblesDebrisAmount_19_4FDE7AA849DB2BB03194F78E0154B559; // 0x0030(0x0008) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     Friction_21_B5A125B94C07A7FB70538590D8609864;            // 0x0038(0x0008) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     Bounce_23_D56CB78F4A82424D1B033A91D98FF65F;              // 0x0040(0x0008) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		struct FAudio_Ground_Collection                            StepSounds_27_D9E4C2AC49AF6C136E89EA818E59DC8D;          // 0x0048(0x0018) Edit, BlueprintVisible, ZeroConstructor, NoDestructor, HasGetValueTypeHash
+		int32_t                                                    RenderIndex_30_490EDD3749C2BDE70F6192BA02E10E88;         // 0x0060(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		bool                                                       ShowFootprints_34_D3871B734E2F65D166D1EEB436C00A19;      // 0x0064(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		bool                                                       ShowImpacts_36_8A9776F143EDF0F323D6E5A101D53959;         // 0x0065(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+	};
+
+}
+
+#ifdef _MSC_VER
+	#pragma pack(pop)
+#endif

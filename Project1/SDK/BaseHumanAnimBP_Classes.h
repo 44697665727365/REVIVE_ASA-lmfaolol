@@ -1,0 +1,1254 @@
+﻿#pragma once
+
+/**
+ * Name: Ark_Survival_Ascended
+ * Version: 0.1
+ */
+
+#ifdef _MSC_VER
+	#pragma pack(push, 0x01)
+#endif
+
+namespace CG
+{
+	// --------------------------------------------------
+	// # Classes
+	// --------------------------------------------------
+	/**
+	 * AnimBlueprintGeneratedClass BaseHumanAnimBP.BaseHumanAnimBP_C
+	 * Size -> 0x16D60 (FullSize[0x170A8] - InheritedSize[0x0348])
+	 */
+	class UBaseHumanAnimBP_C : public UAnimInstance
+	{
+	public:
+		unsigned char                                              UnknownData_VKA3[0x8];                                   // 0x0348(0x0008) Fix Super Size
+		struct FPointerToUberGraphFrame                            UberGraphFrame;                                          // 0x0350(0x0008) ZeroConstructor, Transient, DuplicateTransient
+		struct UBaseHumanAnimBP_C_FAnimBlueprintGeneratedMutableData __AnimBlueprintMutables;                                 // 0x0358(0x0300) HasGetValueTypeHash
+		struct FAnimSubsystemInstance                              AnimBlueprintExtension_Tag;                              // 0x0658(0x0008)
+		struct FAnimSubsystemInstance                              AnimBlueprintExtension_PropertyAccess;                   // 0x0660(0x0008)
+		struct FAnimSubsystemInstance_NodeRelevancy                AnimBlueprintExtension_NodeRelevancy;                    // 0x0668(0x00A8)
+		struct FAnimSubsystemInstance                              AnimBlueprintExtension_BlendSpaceGraph;                  // 0x0710(0x0008)
+		struct FAnimSubsystemInstance                              AnimBlueprintExtension_Base;                             // 0x0718(0x0008)
+		struct FAnimNode_SequencePlayer                            AnimGraphNode_SequencePlayer_48;                         // 0x0720(0x0048)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_192;                         // 0x0768(0x0028)
+		struct FAnimNode_LayeredBoneBlend                          AnimGraphNode_LayeredBoneBlend_58;                       // 0x0790(0x00E0)
+		struct FAnimNode_SequencePlayer                            AnimGraphNode_SequencePlayer_47;                         // 0x0870(0x0048)
+		struct FAnimNode_SequencePlayer                            AnimGraphNode_SequencePlayer_46;                         // 0x08B8(0x0048)
+		struct FAnimNode_BlendListByBool                           AnimGraphNode_BlendListByBool_91;                        // 0x0900(0x0048)
+		struct FAnimNode_Slot                                      AnimGraphNode_Slot_27;                                   // 0x0948(0x0048)
+		struct FAnimNode_Slot                                      AnimGraphNode_Slot_26;                                   // 0x0990(0x0048)
+		struct FAnimNode_BlendListByBool                           AnimGraphNode_BlendListByBool_90;                        // 0x09D8(0x0048)
+		struct FAnimNode_LayeredBoneBlend                          AnimGraphNode_LayeredBoneBlend_57;                       // 0x0A20(0x00E0)
+		struct FAnimNode_BlendListByBool                           AnimGraphNode_BlendListByBool_89;                        // 0x0B00(0x0048)
+		struct FAnimNode_SequencePlayer                            AnimGraphNode_SequencePlayer_45;                         // 0x0B48(0x0048)
+		struct FAnimNode_ModifyBone                                AnimGraphNode_ModifyBone_10;                             // 0x0B90(0x01A0)
+		struct FAnimNode_BlendListByBool                           AnimGraphNode_BlendListByBool_88;                        // 0x0D30(0x0048)
+		struct FAnimNode_SaveCachedPose                            AnimGraphNode_SaveCachedPose_62;                         // 0x0D78(0x0108)
+		struct FAnimNode_ModifyBone                                AnimGraphNode_ModifyBone_9;                              // 0x0E80(0x01A0)
+		struct FAnimNode_ConvertLocalToComponentSpace              AnimGraphNode_LocalToComponentSpace_8;                   // 0x1020(0x0020)
+		struct FAnimNode_ModifyBone                                AnimGraphNode_ModifyBone_8;                              // 0x1040(0x01A0)
+		struct FAnimNode_ConvertComponentToLocalSpace              AnimGraphNode_ComponentToLocalSpace_8;                   // 0x11E0(0x0020)
+		struct FAnimNode_ModifyBone                                AnimGraphNode_ModifyBone_7;                              // 0x1200(0x01A0)
+		struct FAnimNode_ModifyBone                                AnimGraphNode_ModifyBone_6;                              // 0x13A0(0x01A0)
+		struct FAnimNode_SequencePlayer                            AnimGraphNode_SequencePlayer_44;                         // 0x1540(0x0048)
+		struct FAnimNode_SequencePlayer                            AnimGraphNode_SequencePlayer_43;                         // 0x1588(0x0048)
+		struct FAnimNode_Slot                                      AnimGraphNode_Slot_25;                                   // 0x15D0(0x0048)
+		struct FAnimNode_BlendListByBool                           AnimGraphNode_BlendListByBool_87;                        // 0x1618(0x0048)
+		struct FAnimNode_SaveCachedPose                            AnimGraphNode_SaveCachedPose_61;                         // 0x1660(0x0108)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_191;                         // 0x1768(0x0028)
+		struct FAnimNode_BlendListByBool                           AnimGraphNode_BlendListByBool_86;                        // 0x1790(0x0048)
+		struct FAnimNode_RotationOffsetBlendSpace                  AnimGraphNode_RotationOffsetBlendSpace_4;                // 0x17D8(0x0118)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_190;                         // 0x18F0(0x0028)
+		struct FAnimNode_SaveCachedPose                            AnimGraphNode_SaveCachedPose_60;                         // 0x1918(0x0108)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_189;                         // 0x1A20(0x0028)
+		struct FAnimNode_BlendListByBool                           AnimGraphNode_BlendListByBool_85;                        // 0x1A48(0x0048)
+		struct FAnimNode_BlendListByInt                            AnimGraphNode_BlendListByInt_2;                          // 0x1A90(0x0048)
+		struct FAnimNode_SequencePlayer                            AnimGraphNode_SequencePlayer_42;                         // 0x1AD8(0x0048)
+		struct FAnimNode_SequencePlayer                            AnimGraphNode_SequencePlayer_41;                         // 0x1B20(0x0048)
+		struct FAnimNode_SequencePlayer                            AnimGraphNode_SequencePlayer_40;                         // 0x1B68(0x0048)
+		struct FAnimNode_ModifyBone                                AnimGraphNode_ModifyBone_5;                              // 0x1BB0(0x01A0)
+		struct FAnimNode_ConvertLocalToComponentSpace              AnimGraphNode_LocalToComponentSpace_7;                   // 0x1D50(0x0020)
+		struct FAnimNode_ConvertComponentToLocalSpace              AnimGraphNode_ComponentToLocalSpace_7;                   // 0x1D70(0x0020)
+		struct FAnimNode_SequencePlayer                            AnimGraphNode_SequencePlayer_39;                         // 0x1D90(0x0048)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_188;                         // 0x1DD8(0x0028)
+		struct FAnimNode_BlendListByBool                           AnimGraphNode_BlendListByBool_84;                        // 0x1E00(0x0048)
+		struct FAnimNode_ApplyAdditive                             AnimGraphNode_ApplyAdditive_9;                           // 0x1E48(0x00C8)
+		struct FAnimNode_BlendListByBool                           AnimGraphNode_BlendListByBool_83;                        // 0x1F10(0x0048)
+		struct FAnimNode_SaveCachedPose                            AnimGraphNode_SaveCachedPose_59;                         // 0x1F58(0x0108)
+		struct FAnimNode_SequencePlayer                            AnimGraphNode_SequencePlayer_38;                         // 0x2060(0x0048)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_187;                         // 0x20A8(0x0028)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_186;                         // 0x20D0(0x0028)
+		struct FAnimNode_BlendListByBool                           AnimGraphNode_BlendListByBool_82;                        // 0x20F8(0x0048)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_185;                         // 0x2140(0x0028)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_184;                         // 0x2168(0x0028)
+		struct FAnimNode_BlendListByBool                           AnimGraphNode_BlendListByBool_81;                        // 0x2190(0x0048)
+		struct FAnimNode_SequencePlayer                            AnimGraphNode_SequencePlayer_37;                         // 0x21D8(0x0048)
+		struct FAnimNode_RotationOffsetBlendSpace                  AnimGraphNode_RotationOffsetBlendSpace_3;                // 0x2220(0x0118)
+		struct FAnimNode_SequencePlayer                            AnimGraphNode_SequencePlayer_36;                         // 0x2338(0x0048)
+		struct FAnimNode_BlendListByBool                           AnimGraphNode_BlendListByBool_80;                        // 0x2380(0x0048)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_183;                         // 0x23C8(0x0028)
+		struct FAnimNode_ApplyAdditive                             AnimGraphNode_ApplyAdditive_8;                           // 0x23F0(0x00C8)
+		struct FAnimNode_SequencePlayer                            AnimGraphNode_SequencePlayer_35;                         // 0x24B8(0x0048)
+		struct FAnimNode_BlendListByBool                           AnimGraphNode_BlendListByBool_79;                        // 0x2500(0x0048)
+		struct FAnimNode_SaveCachedPose                            AnimGraphNode_SaveCachedPose_58;                         // 0x2548(0x0108)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_182;                         // 0x2650(0x0028)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_181;                         // 0x2678(0x0028)
+		struct FAnimNode_SaveCachedPose                            AnimGraphNode_SaveCachedPose_57;                         // 0x26A0(0x0108)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_180;                         // 0x27A8(0x0028)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_179;                         // 0x27D0(0x0028)
+		struct FAnimNode_Slot                                      AnimGraphNode_Slot_24;                                   // 0x27F8(0x0048)
+		struct FAnimNode_LayeredBoneBlend                          AnimGraphNode_LayeredBoneBlend_56;                       // 0x2840(0x00E0)
+		struct FAnimNode_LayeredBoneBlend                          AnimGraphNode_LayeredBoneBlend_55;                       // 0x2920(0x00E0)
+		struct FAnimNode_BlendListByBool                           AnimGraphNode_BlendListByBool_78;                        // 0x2A00(0x0048)
+		struct FAnimNode_SequencePlayer                            AnimGraphNode_SequencePlayer_34;                         // 0x2A48(0x0048)
+		struct FAnimNode_BlendListByBool                           AnimGraphNode_BlendListByBool_77;                        // 0x2A90(0x0048)
+		struct FAnimNode_SaveCachedPose                            AnimGraphNode_SaveCachedPose_56;                         // 0x2AD8(0x0108)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_178;                         // 0x2BE0(0x0028)
+		struct FAnimNode_LayeredBoneBlend                          AnimGraphNode_LayeredBoneBlend_54;                       // 0x2C08(0x00E0)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_177;                         // 0x2CE8(0x0028)
+		struct FAnimNode_SaveCachedPose                            AnimGraphNode_SaveCachedPose_55;                         // 0x2D10(0x0108)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_176;                         // 0x2E18(0x0028)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_175;                         // 0x2E40(0x0028)
+		struct FAnimNode_BlendListByBool                           AnimGraphNode_BlendListByBool_76;                        // 0x2E68(0x0048)
+		struct FAnimNode_LayeredBoneBlend                          AnimGraphNode_LayeredBoneBlend_53;                       // 0x2EB0(0x00E0)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_174;                         // 0x2F90(0x0028)
+		struct FAnimNode_SequencePlayer                            AnimGraphNode_SequencePlayer_33;                         // 0x2FB8(0x0048)
+		struct FAnimNode_BlendListByBool                           AnimGraphNode_BlendListByBool_75;                        // 0x3000(0x0048)
+		struct FAnimNode_BlendListByBool                           AnimGraphNode_BlendListByBool_74;                        // 0x3048(0x0048)
+		struct FAnimNode_LayeredBoneBlend                          AnimGraphNode_LayeredBoneBlend_52;                       // 0x3090(0x00E0)
+		struct FAnimNode_BlendListByBool                           AnimGraphNode_BlendListByBool_73;                        // 0x3170(0x0048)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_173;                         // 0x31B8(0x0028)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_172;                         // 0x31E0(0x0028)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_171;                         // 0x3208(0x0028)
+		struct FAnimNode_LayeredBoneBlend                          AnimGraphNode_LayeredBoneBlend_51;                       // 0x3230(0x00E0)
+		struct FAnimNode_BlendListByBool                           AnimGraphNode_BlendListByBool_72;                        // 0x3310(0x0048)
+		struct FAnimNode_SequencePlayer                            AnimGraphNode_SequencePlayer_32;                         // 0x3358(0x0048)
+		struct FAnimNode_LayeredBoneBlend                          AnimGraphNode_LayeredBoneBlend_50;                       // 0x33A0(0x00E0)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_170;                         // 0x3480(0x0028)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_169;                         // 0x34A8(0x0028)
+		struct FAnimNode_SaveCachedPose                            AnimGraphNode_SaveCachedPose_54;                         // 0x34D0(0x0108)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_168;                         // 0x35D8(0x0028)
+		struct FAnimNode_ApplyAdditive                             AnimGraphNode_ApplyAdditive_7;                           // 0x3600(0x00C8)
+		struct FAnimNode_BlendListByBool                           AnimGraphNode_BlendListByBool_71;                        // 0x36C8(0x0048)
+		struct FAnimNode_SaveCachedPose                            AnimGraphNode_SaveCachedPose_53;                         // 0x3710(0x0108)
+		struct FAnimNode_BlendSpacePlayer                          AnimGraphNode_BlendSpacePlayer_5;                        // 0x3818(0x0070)
+		struct FAnimNode_BlendSpacePlayer                          AnimGraphNode_BlendSpacePlayer_4;                        // 0x3888(0x0070)
+		struct FAnimNode_BlendListByBool                           AnimGraphNode_BlendListByBool_70;                        // 0x38F8(0x0048)
+		struct FAnimNode_BlendListByBool                           AnimGraphNode_BlendListByBool_69;                        // 0x3940(0x0048)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_167;                         // 0x3988(0x0028)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_166;                         // 0x39B0(0x0028)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_165;                         // 0x39D8(0x0028)
+		struct FAnimNode_LayeredBoneBlend                          AnimGraphNode_LayeredBoneBlend_49;                       // 0x3A00(0x00E0)
+		struct FAnimNode_BlendListByBool                           AnimGraphNode_BlendListByBool_68;                        // 0x3AE0(0x0048)
+		struct FAnimNode_SequencePlayer                            AnimGraphNode_SequencePlayer_31;                         // 0x3B28(0x0048)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_164;                         // 0x3B70(0x0028)
+		struct FAnimNode_Slot                                      AnimGraphNode_Slot_23;                                   // 0x3B98(0x0048)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_163;                         // 0x3BE0(0x0028)
+		struct FAnimNode_LayeredBoneBlend                          AnimGraphNode_LayeredBoneBlend_48;                       // 0x3C08(0x00E0)
+		struct FAnimNode_BlendListByBool                           AnimGraphNode_BlendListByBool_67;                        // 0x3CE8(0x0048)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_162;                         // 0x3D30(0x0028)
+		struct FAnimNode_BlendSpacePlayer                          AnimGraphNode_BlendSpacePlayer_3;                        // 0x3D58(0x0070)
+		struct FAnimNode_BlendListByBool                           AnimGraphNode_BlendListByBool_66;                        // 0x3DC8(0x0048)
+		struct FAnimNode_BlendListByInt                            AnimGraphNode_BlendListByInt;                            // 0x3E10(0x0048)
+		struct FAnimNode_SequencePlayer                            AnimGraphNode_SequencePlayer_30;                         // 0x3E58(0x0048)
+		struct FAnimNode_SequencePlayer                            AnimGraphNode_SequencePlayer_29;                         // 0x3EA0(0x0048)
+		struct FAnimNode_BlendListByBool                           AnimGraphNode_BlendListByBool_65;                        // 0x3EE8(0x0048)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_161;                         // 0x3F30(0x0028)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_160;                         // 0x3F58(0x0028)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_159;                         // 0x3F80(0x0028)
+		struct FAnimNode_LayeredBoneBlend                          AnimGraphNode_LayeredBoneBlend_47;                       // 0x3FA8(0x00E0)
+		struct FAnimNode_BlendListByBool                           AnimGraphNode_BlendListByBool_64;                        // 0x4088(0x0048)
+		struct FAnimNode_Slot                                      AnimGraphNode_Slot_22;                                   // 0x40D0(0x0048)
+		struct FAnimNode_BlendListByBool                           AnimGraphNode_BlendListByBool_63;                        // 0x4118(0x0048)
+		struct FAnimNode_BlendSpacePlayer                          AnimGraphNode_BlendSpacePlayer_2;                        // 0x4160(0x0070)
+		struct FAnimNode_Inertialization                           AnimGraphNode_Inertialization;                           // 0x41D0(0x0100)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_158;                         // 0x42D0(0x0028)
+		struct FAnimNode_SequencePlayer                            AnimGraphNode_SequencePlayer_28;                         // 0x42F8(0x0048)
+		struct FAnimNode_SaveCachedPose                            AnimGraphNode_SaveCachedPose_52;                         // 0x4340(0x0108)
+		struct FAnimNode_BlendListByBool                           AnimGraphNode_BlendListByBool_62;                        // 0x4448(0x0048)
+		struct FAnimNode_SequencePlayer                            AnimGraphNode_SequencePlayer_27;                         // 0x4490(0x0048)
+		struct FAnimNode_BlendListByBool                           AnimGraphNode_BlendListByBool_61;                        // 0x44D8(0x0048)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_157;                         // 0x4520(0x0028)
+		struct FAnimNode_LayeredBoneBlend                          AnimGraphNode_LayeredBoneBlend_46;                       // 0x4548(0x00E0)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_156;                         // 0x4628(0x0028)
+		struct FAnimNode_TransitionResult                          AnimGraphNode_TransitionResult_21;                       // 0x4650(0x0028)
+		struct FAnimNode_TransitionResult                          AnimGraphNode_TransitionResult_20;                       // 0x4678(0x0028)
+		struct FAnimNode_TransitionResult                          AnimGraphNode_TransitionResult_19;                       // 0x46A0(0x0028)
+		struct FAnimNode_TransitionResult                          AnimGraphNode_TransitionResult_18;                       // 0x46C8(0x0028)
+		struct FAnimNode_TransitionResult                          AnimGraphNode_TransitionResult_17;                       // 0x46F0(0x0028)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_155;                         // 0x4718(0x0028)
+		struct FAnimNode_StateResult                               AnimGraphNode_StateResult_19;                            // 0x4740(0x0020)
+		struct FAnimNode_ApplyMeshSpaceAdditive                    AnimGraphNode_ApplyMeshSpaceAdditive_8;                  // 0x4760(0x00D0)
+		struct FAnimNode_SequenceEvaluator                         AnimGraphNode_SequenceEvaluator_39;                      // 0x4830(0x0040)
+		struct FAnimNode_SequenceEvaluator                         AnimGraphNode_SequenceEvaluator_38;                      // 0x4870(0x0040)
+		struct FAnimNode_MakeDynamicAdditive                       AnimGraphNode_MakeDynamicAdditive_7;                     // 0x48B0(0x0038)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_154;                         // 0x48E8(0x0028)
+		struct FAnimNode_SequenceEvaluator                         AnimGraphNode_SequenceEvaluator_37;                      // 0x4910(0x0040)
+		struct FAnimNode_LayeredBoneBlend                          AnimGraphNode_LayeredBoneBlend_45;                       // 0x4950(0x00E0)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_153;                         // 0x4A30(0x0028)
+		struct FAnimNode_StateResult                               AnimGraphNode_StateResult_18;                            // 0x4A58(0x0020)
+		struct FAnimNode_ConvertLocalToComponentSpace              AnimGraphNode_LocalToComponentSpace_6;                   // 0x4A78(0x0020)
+		unsigned char                                              UnknownData_C4HC[0x8];                                   // 0x4A98(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		struct FAnimNode_ModifyBone                                AnimGraphNode_ModifyBone_4;                              // 0x4AA0(0x01A0)
+		struct FAnimNode_ConvertLocalToComponentSpace              AnimGraphNode_LocalToComponentSpace_5;                   // 0x4C40(0x0020)
+		struct FAnimNode_TransitionResult                          AnimGraphNode_TransitionResult_16;                       // 0x4C60(0x0028)
+		struct FAnimNode_TransitionResult                          AnimGraphNode_TransitionResult_15;                       // 0x4C88(0x0028)
+		struct FAnimNode_TransitionResult                          AnimGraphNode_TransitionResult_14;                       // 0x4CB0(0x0028)
+		struct FAnimNode_TransitionResult                          AnimGraphNode_TransitionResult_13;                       // 0x4CD8(0x0028)
+		struct FAnimNode_ControlRig                                AnimGraphNode_ControlRig_16;                             // 0x4D00(0x0470)
+		struct FAnimNode_BlendListByBool                           AnimGraphNode_BlendListByBool_60;                        // 0x5170(0x0048)
+		struct FAnimNode_SequencePlayer                            AnimGraphNode_SequencePlayer_26;                         // 0x51B8(0x0048)
+		struct FAnimNode_SequencePlayer                            AnimGraphNode_SequencePlayer_25;                         // 0x5200(0x0048)
+		struct FAnimNode_StateResult                               AnimGraphNode_StateResult_17;                            // 0x5248(0x0020)
+		struct FAnimNode_ControlRig                                AnimGraphNode_ControlRig_15;                             // 0x5268(0x0470)
+		struct FAnimNode_BlendListByBool                           AnimGraphNode_BlendListByBool_59;                        // 0x56D8(0x0048)
+		struct FAnimNode_SequencePlayer                            AnimGraphNode_SequencePlayer_24;                         // 0x5720(0x0048)
+		struct FAnimNode_SequencePlayer                            AnimGraphNode_SequencePlayer_23;                         // 0x5768(0x0048)
+		struct FAnimNode_StateResult                               AnimGraphNode_StateResult_16;                            // 0x57B0(0x0020)
+		struct FAnimNode_ControlRig                                AnimGraphNode_ControlRig_14;                             // 0x57D0(0x0470)
+		struct FAnimNode_SequencePlayer                            AnimGraphNode_SequencePlayer_22;                         // 0x5C40(0x0048)
+		struct FAnimNode_BlendListByBool                           AnimGraphNode_BlendListByBool_58;                        // 0x5C88(0x0048)
+		struct FAnimNode_SequencePlayer                            AnimGraphNode_SequencePlayer_21;                         // 0x5CD0(0x0048)
+		struct FAnimNode_StateResult                               AnimGraphNode_StateResult_15;                            // 0x5D18(0x0020)
+		struct FAnimNode_ControlRig                                AnimGraphNode_ControlRig_13;                             // 0x5D38(0x0470)
+		struct FAnimNode_SequencePlayer                            AnimGraphNode_SequencePlayer_20;                         // 0x61A8(0x0048)
+		struct FAnimNode_BlendListByBool                           AnimGraphNode_BlendListByBool_57;                        // 0x61F0(0x0048)
+		struct FAnimNode_SequencePlayer                            AnimGraphNode_SequencePlayer_19;                         // 0x6238(0x0048)
+		struct FAnimNode_BlendListByBool                           AnimGraphNode_BlendListByBool_56;                        // 0x6280(0x0048)
+		struct FAnimNode_SequencePlayer                            AnimGraphNode_SequencePlayer_18;                         // 0x62C8(0x0048)
+		struct FAnimNode_StateResult                               AnimGraphNode_StateResult_14;                            // 0x6310(0x0020)
+		struct FAnimNode_StateMachine                              AnimGraphNode_StateMachine_5;                            // 0x6330(0x00C8)
+		struct FAnimNode_SequenceEvaluator                         AnimGraphNode_SequenceEvaluator_36;                      // 0x63F8(0x0040)
+		struct FAnimNode_BlendSpaceSampleResult                    AnimGraphNode_BlendSpaceSampleResult_5;                  // 0x6438(0x0020)
+		struct FAnimNode_SequenceEvaluator                         AnimGraphNode_SequenceEvaluator_35;                      // 0x6458(0x0040)
+		struct FAnimNode_BlendSpaceSampleResult                    AnimGraphNode_BlendSpaceSampleResult_4;                  // 0x6498(0x0020)
+		struct FAnimNode_SequenceEvaluator                         AnimGraphNode_SequenceEvaluator_34;                      // 0x64B8(0x0040)
+		struct FAnimNode_BlendSpaceSampleResult                    AnimGraphNode_BlendSpaceSampleResult_3;                  // 0x64F8(0x0020)
+		struct FAnimNode_SequenceEvaluator                         AnimGraphNode_SequenceEvaluator_33;                      // 0x6518(0x0040)
+		struct FAnimNode_BlendSpaceSampleResult                    AnimGraphNode_BlendSpaceSampleResult_2;                  // 0x6558(0x0020)
+		struct FAnimNode_SequenceEvaluator                         AnimGraphNode_SequenceEvaluator_32;                      // 0x6578(0x0040)
+		struct FAnimNode_BlendSpaceSampleResult                    AnimGraphNode_BlendSpaceSampleResult;                    // 0x65B8(0x0020)
+		struct FAnimNode_BlendSpaceGraph                           AnimGraphNode_BlendSpaceGraph;                           // 0x65D8(0x0068)
+		struct FAnimNode_ApplyMeshSpaceAdditive                    AnimGraphNode_ApplyMeshSpaceAdditive_7;                  // 0x6640(0x00D0)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_152;                         // 0x6710(0x0028)
+		struct FAnimNode_ConvertComponentToLocalSpace              AnimGraphNode_ComponentToLocalSpace_6;                   // 0x6738(0x0020)
+		struct FAnimNode_LayeredBoneBlend                          AnimGraphNode_LayeredBoneBlend_44;                       // 0x6758(0x00E0)
+		struct FAnimNode_StrideWarping                             AnimGraphNode_StrideWarping_2;                           // 0x6838(0x0248)
+		struct FAnimNode_ConvertComponentToLocalSpace              AnimGraphNode_ComponentToLocalSpace_5;                   // 0x6A80(0x0020)
+		struct FAnimNode_ModifyBone                                AnimGraphNode_ModifyBone_3;                              // 0x6AA0(0x01A0)
+		struct FAnimNode_StateResult                               AnimGraphNode_StateResult_13;                            // 0x6C40(0x0020)
+		struct FAnimNode_StateMachine                              AnimGraphNode_StateMachine_4;                            // 0x6C60(0x00C8)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_151;                         // 0x6D28(0x0028)
+		struct FAnimNode_SaveCachedPose                            AnimGraphNode_SaveCachedPose_51;                         // 0x6D50(0x0108)
+		struct FAnimNode_SaveCachedPose                            AnimGraphNode_SaveCachedPose_50;                         // 0x6E58(0x0108)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_150;                         // 0x6F60(0x0028)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_149;                         // 0x6F88(0x0028)
+		struct FAnimNode_LinkedAnimGraph                           AnimGraphNode_LinkedAnimGraph;                           // 0x6FB0(0x00B8)
+		struct FAnimNode_BlendListByBool                           AnimGraphNode_BlendListByBool_55;                        // 0x7068(0x0048)
+		struct FAnimNode_SaveCachedPose                            AnimGraphNode_SaveCachedPose_49;                         // 0x70B0(0x0108)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_148;                         // 0x71B8(0x0028)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_147;                         // 0x71E0(0x0028)
+		struct FAnimNode_LayeredBoneBlend                          AnimGraphNode_LayeredBoneBlend_43;                       // 0x7208(0x00E0)
+		struct FAnimNode_Slot                                      AnimGraphNode_Slot_21;                                   // 0x72E8(0x0048)
+		struct FAnimNode_BlendListByBool                           AnimGraphNode_BlendListByBool_54;                        // 0x7330(0x0048)
+		struct FAnimNode_BlendListByBool                           AnimGraphNode_BlendListByBool_53;                        // 0x7378(0x0048)
+		struct FAnimNode_LayeredBoneBlend                          AnimGraphNode_LayeredBoneBlend_42;                       // 0x73C0(0x00E0)
+		struct FAnimNode_LayeredBoneBlend                          AnimGraphNode_LayeredBoneBlend_41;                       // 0x74A0(0x00E0)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_146;                         // 0x7580(0x0028)
+		struct FAnimNode_ConvertLocalToComponentSpace              AnimGraphNode_LocalToComponentSpace_4;                   // 0x75A8(0x0020)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_145;                         // 0x75C8(0x0028)
+		struct FAnimNode_SequencePlayer                            AnimGraphNode_SequencePlayer_17;                         // 0x75F0(0x0048)
+		unsigned char                                              UnknownData_OR3X[0x8];                                   // 0x7638(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		struct FAnimNode_ModifyBone                                AnimGraphNode_ModifyBone_2;                              // 0x7640(0x01A0)
+		struct FAnimNode_LayeredBoneBlend                          AnimGraphNode_LayeredBoneBlend_40;                       // 0x77E0(0x00E0)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_144;                         // 0x78C0(0x0028)
+		struct FAnimNode_SaveCachedPose                            AnimGraphNode_SaveCachedPose_48;                         // 0x78E8(0x0108)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_143;                         // 0x79F0(0x0028)
+		struct FAnimNode_BlendListByBool                           AnimGraphNode_BlendListByBool_52;                        // 0x7A18(0x0048)
+		struct FAnimNode_SequencePlayer                            AnimGraphNode_SequencePlayer_16;                         // 0x7A60(0x0048)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_142;                         // 0x7AA8(0x0028)
+		struct FAnimNode_SaveCachedPose                            AnimGraphNode_SaveCachedPose_47;                         // 0x7AD0(0x0108)
+		struct FAnimNode_BlendListByBool                           AnimGraphNode_BlendListByBool_51;                        // 0x7BD8(0x0048)
+		struct FAnimNode_SaveCachedPose                            AnimGraphNode_SaveCachedPose_46;                         // 0x7C20(0x0108)
+		struct FAnimNode_Slot                                      AnimGraphNode_Slot_20;                                   // 0x7D28(0x0048)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_141;                         // 0x7D70(0x0028)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_140;                         // 0x7D98(0x0028)
+		struct FAnimNode_LayeredBoneBlend                          AnimGraphNode_LayeredBoneBlend_39;                       // 0x7DC0(0x00E0)
+		struct FAnimNode_LayeredBoneBlend                          AnimGraphNode_LayeredBoneBlend_38;                       // 0x7EA0(0x00E0)
+		struct FAnimNode_Slot                                      AnimGraphNode_Slot_19;                                   // 0x7F80(0x0048)
+		struct FAnimNode_BlendListByBool                           AnimGraphNode_BlendListByBool_50;                        // 0x7FC8(0x0048)
+		struct FAnimNode_Slot                                      AnimGraphNode_Slot_18;                                   // 0x8010(0x0048)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_139;                         // 0x8058(0x0028)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_138;                         // 0x8080(0x0028)
+		struct FAnimNode_LayeredBoneBlend                          AnimGraphNode_LayeredBoneBlend_37;                       // 0x80A8(0x00E0)
+		struct FAnimNode_BlendListByBool                           AnimGraphNode_BlendListByBool_49;                        // 0x8188(0x0048)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_137;                         // 0x81D0(0x0028)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_136;                         // 0x81F8(0x0028)
+		struct FAnimNode_BlendListByBool                           AnimGraphNode_BlendListByBool_48;                        // 0x8220(0x0048)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_135;                         // 0x8268(0x0028)
+		struct FAnimNode_RotationOffsetBlendSpace                  AnimGraphNode_RotationOffsetBlendSpace_2;                // 0x8290(0x0118)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_134;                         // 0x83A8(0x0028)
+		struct FAnimNode_BlendListByBool                           AnimGraphNode_BlendListByBool_47;                        // 0x83D0(0x0048)
+		struct FAnimNode_Slot                                      AnimGraphNode_Slot_17;                                   // 0x8418(0x0048)
+		struct FAnimNode_Slot                                      AnimGraphNode_Slot_16;                                   // 0x8460(0x0048)
+		struct FAnimNode_SaveCachedPose                            AnimGraphNode_SaveCachedPose_45;                         // 0x84A8(0x0108)
+		struct FAnimNode_BlendListByBool                           AnimGraphNode_BlendListByBool_46;                        // 0x85B0(0x0048)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_133;                         // 0x85F8(0x0028)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_132;                         // 0x8620(0x0028)
+		struct FAnimNode_Slot                                      AnimGraphNode_Slot_15;                                   // 0x8648(0x0048)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_131;                         // 0x8690(0x0028)
+		struct FAnimNode_BlendListByBool                           AnimGraphNode_BlendListByBool_45;                        // 0x86B8(0x0048)
+		struct FAnimNode_SaveCachedPose                            AnimGraphNode_SaveCachedPose_44;                         // 0x8700(0x0108)
+		struct FAnimNode_LayeredBoneBlend                          AnimGraphNode_LayeredBoneBlend_36;                       // 0x8808(0x00E0)
+		struct FAnimNode_LayeredBoneBlend                          AnimGraphNode_LayeredBoneBlend_35;                       // 0x88E8(0x00E0)
+		struct FAnimNode_ApplyMeshSpaceAdditive                    AnimGraphNode_ApplyMeshSpaceAdditive_6;                  // 0x89C8(0x00D0)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_130;                         // 0x8A98(0x0028)
+		struct FAnimNode_TwoWayBlend                               AnimGraphNode_TwoWayBlend_18;                            // 0x8AC0(0x00C8)
+		struct FAnimNode_SaveCachedPose                            AnimGraphNode_SaveCachedPose_43;                         // 0x8B88(0x0108)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_129;                         // 0x8C90(0x0028)
+		struct FAnimNode_LayeredBoneBlend                          AnimGraphNode_LayeredBoneBlend_34;                       // 0x8CB8(0x00E0)
+		struct FAnimNode_SequenceEvaluator                         AnimGraphNode_SequenceEvaluator_31;                      // 0x8D98(0x0040)
+		struct FAnimNode_SaveCachedPose                            AnimGraphNode_SaveCachedPose_42;                         // 0x8DD8(0x0108)
+		struct FAnimNode_Slot                                      AnimGraphNode_Slot_14;                                   // 0x8EE0(0x0048)
+		struct FAnimNode_TwoWayBlend                               AnimGraphNode_TwoWayBlend_17;                            // 0x8F28(0x00C8)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_128;                         // 0x8FF0(0x0028)
+		struct FAnimNode_LayeredBoneBlend                          AnimGraphNode_LayeredBoneBlend_33;                       // 0x9018(0x00E0)
+		struct FAnimNode_TwoWayBlend                               AnimGraphNode_TwoWayBlend_16;                            // 0x90F8(0x00C8)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_127;                         // 0x91C0(0x0028)
+		struct FAnimNode_LayeredBoneBlend                          AnimGraphNode_LayeredBoneBlend_32;                       // 0x91E8(0x00E0)
+		struct FAnimNode_TwoWayBlend                               AnimGraphNode_TwoWayBlend_15;                            // 0x92C8(0x00C8)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_126;                         // 0x9390(0x0028)
+		struct FAnimNode_LayeredBoneBlend                          AnimGraphNode_LayeredBoneBlend_31;                       // 0x93B8(0x00E0)
+		struct FAnimNode_TwoWayBlend                               AnimGraphNode_TwoWayBlend_14;                            // 0x9498(0x00C8)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_125;                         // 0x9560(0x0028)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_124;                         // 0x9588(0x0028)
+		struct FAnimNode_ApplyAdditive                             AnimGraphNode_ApplyAdditive_6;                           // 0x95B0(0x00C8)
+		struct FAnimNode_LayeredBoneBlend                          AnimGraphNode_LayeredBoneBlend_30;                       // 0x9678(0x00E0)
+		struct FAnimNode_TwoWayBlend                               AnimGraphNode_TwoWayBlend_13;                            // 0x9758(0x00C8)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_123;                         // 0x9820(0x0028)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_122;                         // 0x9848(0x0028)
+		struct FAnimNode_ApplyAdditive                             AnimGraphNode_ApplyAdditive_5;                           // 0x9870(0x00C8)
+		struct FAnimNode_LayeredBoneBlend                          AnimGraphNode_LayeredBoneBlend_29;                       // 0x9938(0x00E0)
+		struct FAnimNode_SaveCachedPose                            AnimGraphNode_SaveCachedPose_41;                         // 0x9A18(0x0108)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_121;                         // 0x9B20(0x0028)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_120;                         // 0x9B48(0x0028)
+		struct FAnimNode_SaveCachedPose                            AnimGraphNode_SaveCachedPose_40;                         // 0x9B70(0x0108)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_119;                         // 0x9C78(0x0028)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_118;                         // 0x9CA0(0x0028)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_117;                         // 0x9CC8(0x0028)
+		struct FAnimNode_ApplyMeshSpaceAdditive                    AnimGraphNode_ApplyMeshSpaceAdditive_5;                  // 0x9CF0(0x00D0)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_116;                         // 0x9DC0(0x0028)
+		struct FAnimNode_ApplyMeshSpaceAdditive                    AnimGraphNode_ApplyMeshSpaceAdditive_4;                  // 0x9DE8(0x00D0)
+		struct FAnimNode_SaveCachedPose                            AnimGraphNode_SaveCachedPose_39;                         // 0x9EB8(0x0108)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_115;                         // 0x9FC0(0x0028)
+		struct FAnimNode_BlendListByBool                           AnimGraphNode_BlendListByBool_44;                        // 0x9FE8(0x0048)
+		struct FAnimNode_SaveCachedPose                            AnimGraphNode_SaveCachedPose_38;                         // 0xA030(0x0108)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_114;                         // 0xA138(0x0028)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_113;                         // 0xA160(0x0028)
+		struct FAnimNode_SaveCachedPose                            AnimGraphNode_SaveCachedPose_37;                         // 0xA188(0x0108)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_112;                         // 0xA290(0x0028)
+		struct FAnimNode_SaveCachedPose                            AnimGraphNode_SaveCachedPose_36;                         // 0xA2B8(0x0108)
+		struct FAnimNode_BlendListByBool                           AnimGraphNode_BlendListByBool_43;                        // 0xA3C0(0x0048)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_111;                         // 0xA408(0x0028)
+		struct FAnimNode_SaveCachedPose                            AnimGraphNode_SaveCachedPose_35;                         // 0xA430(0x0108)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_110;                         // 0xA538(0x0028)
+		struct FAnimNode_SequenceEvaluator                         AnimGraphNode_SequenceEvaluator_30;                      // 0xA560(0x0040)
+		struct FAnimNode_BlendListByBool                           AnimGraphNode_BlendListByBool_42;                        // 0xA5A0(0x0048)
+		struct FAnimNode_LayeredBoneBlend                          AnimGraphNode_LayeredBoneBlend_28;                       // 0xA5E8(0x00E0)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_109;                         // 0xA6C8(0x0028)
+		struct FAnimNode_BlendListByBool                           AnimGraphNode_BlendListByBool_41;                        // 0xA6F0(0x0048)
+		struct FAnimNode_LayeredBoneBlend                          AnimGraphNode_LayeredBoneBlend_27;                       // 0xA738(0x00E0)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_108;                         // 0xA818(0x0028)
+		struct FAnimNode_BlendListByBool                           AnimGraphNode_BlendListByBool_40;                        // 0xA840(0x0048)
+		struct FAnimNode_SaveCachedPose                            AnimGraphNode_SaveCachedPose_34;                         // 0xA888(0x0108)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_107;                         // 0xA990(0x0028)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_106;                         // 0xA9B8(0x0028)
+		struct FAnimNode_SaveCachedPose                            AnimGraphNode_SaveCachedPose_33;                         // 0xA9E0(0x0108)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_105;                         // 0xAAE8(0x0028)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_104;                         // 0xAB10(0x0028)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_103;                         // 0xAB38(0x0028)
+		struct FAnimNode_ApplyAdditive                             AnimGraphNode_ApplyAdditive_4;                           // 0xAB60(0x00C8)
+		struct FAnimNode_SequenceEvaluator                         AnimGraphNode_SequenceEvaluator_29;                      // 0xAC28(0x0040)
+		struct FAnimNode_LayeredBoneBlend                          AnimGraphNode_LayeredBoneBlend_26;                       // 0xAC68(0x00E0)
+		struct FAnimNode_SequencePlayer                            AnimGraphNode_SequencePlayer_15;                         // 0xAD48(0x0048)
+		struct FAnimNode_BlendListByBool                           AnimGraphNode_BlendListByBool_39;                        // 0xAD90(0x0048)
+		struct FAnimNode_SaveCachedPose                            AnimGraphNode_SaveCachedPose_32;                         // 0xADD8(0x0108)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_102;                         // 0xAEE0(0x0028)
+		struct FAnimNode_LayeredBoneBlend                          AnimGraphNode_LayeredBoneBlend_25;                       // 0xAF08(0x00E0)
+		struct FAnimNode_SequencePlayer                            AnimGraphNode_SequencePlayer_14;                         // 0xAFE8(0x0048)
+		struct FAnimNode_BlendListByBool                           AnimGraphNode_BlendListByBool_38;                        // 0xB030(0x0048)
+		struct FAnimNode_LayeredBoneBlend                          AnimGraphNode_LayeredBoneBlend_24;                       // 0xB078(0x00E0)
+		struct FAnimNode_SequencePlayer                            AnimGraphNode_SequencePlayer_13;                         // 0xB158(0x0048)
+		struct FAnimNode_BlendListByBool                           AnimGraphNode_BlendListByBool_37;                        // 0xB1A0(0x0048)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_101;                         // 0xB1E8(0x0028)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_100;                         // 0xB210(0x0028)
+		struct FAnimNode_SequencePlayer                            AnimGraphNode_SequencePlayer_12;                         // 0xB238(0x0048)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_99;                          // 0xB280(0x0028)
+		struct FAnimNode_Slot                                      AnimGraphNode_Slot_13;                                   // 0xB2A8(0x0048)
+		struct FAnimNode_BlendListByBool                           AnimGraphNode_BlendListByBool_36;                        // 0xB2F0(0x0048)
+		struct FAnimNode_SaveCachedPose                            AnimGraphNode_SaveCachedPose_31;                         // 0xB338(0x0108)
+		struct FAnimNode_SaveCachedPose                            AnimGraphNode_SaveCachedPose_30;                         // 0xB440(0x0108)
+		struct FAnimNode_BlendListByBool                           AnimGraphNode_BlendListByBool_35;                        // 0xB548(0x0048)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_98;                          // 0xB590(0x0028)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_97;                          // 0xB5B8(0x0028)
+		struct FAnimNode_SaveCachedPose                            AnimGraphNode_SaveCachedPose_29;                         // 0xB5E0(0x0108)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_96;                          // 0xB6E8(0x0028)
+		struct FAnimNode_TwoWayBlend                               AnimGraphNode_TwoWayBlend_12;                            // 0xB710(0x00C8)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_95;                          // 0xB7D8(0x0028)
+		struct FAnimNode_TwoWayBlend                               AnimGraphNode_TwoWayBlend_11;                            // 0xB800(0x00C8)
+		struct FAnimNode_LayeredBoneBlend                          AnimGraphNode_LayeredBoneBlend_23;                       // 0xB8C8(0x00E0)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_94;                          // 0xB9A8(0x0028)
+		struct FAnimNode_LayeredBoneBlend                          AnimGraphNode_LayeredBoneBlend_22;                       // 0xB9D0(0x00E0)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_93;                          // 0xBAB0(0x0028)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_92;                          // 0xBAD8(0x0028)
+		struct FAnimNode_BlendListByBool                           AnimGraphNode_BlendListByBool_34;                        // 0xBB00(0x0048)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_91;                          // 0xBB48(0x0028)
+		struct FAnimNode_LayeredBoneBlend                          AnimGraphNode_LayeredBoneBlend_21;                       // 0xBB70(0x00E0)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_90;                          // 0xBC50(0x0028)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_89;                          // 0xBC78(0x0028)
+		struct FAnimNode_MakeDynamicAdditive                       AnimGraphNode_MakeDynamicAdditive_6;                     // 0xBCA0(0x0038)
+		struct FAnimNode_SaveCachedPose                            AnimGraphNode_SaveCachedPose_28;                         // 0xBCD8(0x0108)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_88;                          // 0xBDE0(0x0028)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_87;                          // 0xBE08(0x0028)
+		struct FAnimNode_MakeDynamicAdditive                       AnimGraphNode_MakeDynamicAdditive_5;                     // 0xBE30(0x0038)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_86;                          // 0xBE68(0x0028)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_85;                          // 0xBE90(0x0028)
+		struct FAnimNode_LayeredBoneBlend                          AnimGraphNode_LayeredBoneBlend_20;                       // 0xBEB8(0x00E0)
+		struct FAnimNode_LayeredBoneBlend                          AnimGraphNode_LayeredBoneBlend_19;                       // 0xBF98(0x00E0)
+		struct FAnimNode_ApplyMeshSpaceAdditive                    AnimGraphNode_ApplyMeshSpaceAdditive_3;                  // 0xC078(0x00D0)
+		struct FAnimNode_TwoWayBlend                               AnimGraphNode_TwoWayBlend_10;                            // 0xC148(0x00C8)
+		struct FAnimNode_LayeredBoneBlend                          AnimGraphNode_LayeredBoneBlend_18;                       // 0xC210(0x00E0)
+		struct FAnimNode_BlendListByEnum                           AnimGraphNode_BlendListByEnum_2;                         // 0xC2F0(0x0048)
+		struct FAnimNode_SaveCachedPose                            AnimGraphNode_SaveCachedPose_27;                         // 0xC338(0x0108)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_84;                          // 0xC440(0x0028)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_83;                          // 0xC468(0x0028)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_82;                          // 0xC490(0x0028)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_81;                          // 0xC4B8(0x0028)
+		struct FAnimNode_TwoWayBlend                               AnimGraphNode_TwoWayBlend_9;                             // 0xC4E0(0x00C8)
+		struct FAnimNode_LayeredBoneBlend                          AnimGraphNode_LayeredBoneBlend_17;                       // 0xC5A8(0x00E0)
+		struct FAnimNode_TwoWayBlend                               AnimGraphNode_TwoWayBlend_8;                             // 0xC688(0x00C8)
+		struct FAnimNode_LayeredBoneBlend                          AnimGraphNode_LayeredBoneBlend_16;                       // 0xC750(0x00E0)
+		struct FAnimNode_TwoWayBlend                               AnimGraphNode_TwoWayBlend_7;                             // 0xC830(0x00C8)
+		struct FAnimNode_LayeredBoneBlend                          AnimGraphNode_LayeredBoneBlend_15;                       // 0xC8F8(0x00E0)
+		struct FAnimNode_TwoWayBlend                               AnimGraphNode_TwoWayBlend_6;                             // 0xC9D8(0x00C8)
+		struct FAnimNode_ApplyAdditive                             AnimGraphNode_ApplyAdditive_3;                           // 0xCAA0(0x00C8)
+		struct FAnimNode_LayeredBoneBlend                          AnimGraphNode_LayeredBoneBlend_14;                       // 0xCB68(0x00E0)
+		struct FAnimNode_TwoWayBlend                               AnimGraphNode_TwoWayBlend_5;                             // 0xCC48(0x00C8)
+		struct FAnimNode_ApplyAdditive                             AnimGraphNode_ApplyAdditive_2;                           // 0xCD10(0x00C8)
+		struct FAnimNode_LayeredBoneBlend                          AnimGraphNode_LayeredBoneBlend_13;                       // 0xCDD8(0x00E0)
+		struct FAnimNode_ApplyMeshSpaceAdditive                    AnimGraphNode_ApplyMeshSpaceAdditive_2;                  // 0xCEB8(0x00D0)
+		struct FAnimNode_ApplyMeshSpaceAdditive                    AnimGraphNode_ApplyMeshSpaceAdditive;                    // 0xCF88(0x00D0)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_80;                          // 0xD058(0x0028)
+		struct FAnimNode_BlendListByBool                           AnimGraphNode_BlendListByBool_33;                        // 0xD080(0x0048)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_79;                          // 0xD0C8(0x0028)
+		struct FAnimNode_Slot                                      AnimGraphNode_Slot_12;                                   // 0xD0F0(0x0048)
+		struct FAnimNode_BlendListByBool                           AnimGraphNode_BlendListByBool_32;                        // 0xD138(0x0048)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_78;                          // 0xD180(0x0028)
+		struct FAnimNode_SaveCachedPose                            AnimGraphNode_SaveCachedPose_26;                         // 0xD1A8(0x0108)
+		struct FAnimNode_Slot                                      AnimGraphNode_Slot_11;                                   // 0xD2B0(0x0048)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_77;                          // 0xD2F8(0x0028)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_76;                          // 0xD320(0x0028)
+		struct FAnimNode_LayeredBoneBlend                          AnimGraphNode_LayeredBoneBlend_12;                       // 0xD348(0x00E0)
+		struct FAnimNode_BlendListByBool                           AnimGraphNode_BlendListByBool_31;                        // 0xD428(0x0048)
+		struct FAnimNode_LayeredBoneBlend                          AnimGraphNode_LayeredBoneBlend_11;                       // 0xD470(0x00E0)
+		struct FAnimNode_BlendListByBool                           AnimGraphNode_BlendListByBool_30;                        // 0xD550(0x0048)
+		struct FAnimNode_SequenceEvaluator                         AnimGraphNode_SequenceEvaluator_28;                      // 0xD598(0x0040)
+		struct FAnimNode_ApplyAdditive                             AnimGraphNode_ApplyAdditive;                             // 0xD5D8(0x00C8)
+		struct FAnimNode_BlendListByBool                           AnimGraphNode_BlendListByBool_29;                        // 0xD6A0(0x0048)
+		struct FAnimNode_SequenceEvaluator                         AnimGraphNode_SequenceEvaluator_27;                      // 0xD6E8(0x0040)
+		struct FAnimNode_BlendListByBool                           AnimGraphNode_BlendListByBool_28;                        // 0xD728(0x0048)
+		struct FAnimNode_SequenceEvaluator                         AnimGraphNode_SequenceEvaluator_26;                      // 0xD770(0x0040)
+		struct FAnimNode_BlendSpaceEvaluator                       AnimGraphNode_BlendSpaceEvaluator;                       // 0xD7B0(0x0078)
+		struct FAnimNode_SaveCachedPose                            AnimGraphNode_SaveCachedPose_25;                         // 0xD828(0x0108)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_75;                          // 0xD930(0x0028)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_74;                          // 0xD958(0x0028)
+		struct FAnimNode_BlendListByBool                           AnimGraphNode_BlendListByBool_27;                        // 0xD980(0x0048)
+		struct FAnimNode_RotationOffsetBlendSpace                  AnimGraphNode_RotationOffsetBlendSpace;                  // 0xD9C8(0x0118)
+		struct FAnimNode_BlendListByBool                           AnimGraphNode_BlendListByBool_26;                        // 0xDAE0(0x0048)
+		struct FAnimNode_BlendListByBool                           AnimGraphNode_BlendListByBool_25;                        // 0xDB28(0x0048)
+		struct FAnimNode_SequenceEvaluator                         AnimGraphNode_SequenceEvaluator_25;                      // 0xDB70(0x0040)
+		struct FAnimNode_TransitionResult                          AnimGraphNode_TransitionResult_12;                       // 0xDBB0(0x0028)
+		struct FAnimNode_TransitionResult                          AnimGraphNode_TransitionResult_11;                       // 0xDBD8(0x0028)
+		struct FAnimNode_TransitionResult                          AnimGraphNode_TransitionResult_10;                       // 0xDC00(0x0028)
+		struct FAnimNode_TransitionResult                          AnimGraphNode_TransitionResult_9;                        // 0xDC28(0x0028)
+		struct FAnimNode_SequenceEvaluator                         AnimGraphNode_SequenceEvaluator_24;                      // 0xDC50(0x0040)
+		struct FAnimNode_SequenceEvaluator                         AnimGraphNode_SequenceEvaluator_23;                      // 0xDC90(0x0040)
+		struct FAnimNode_BlendListByBool                           AnimGraphNode_BlendListByBool_24;                        // 0xDCD0(0x0048)
+		struct FAnimNode_StateResult                               AnimGraphNode_StateResult_12;                            // 0xDD18(0x0020)
+		struct FAnimNode_SequenceEvaluator                         AnimGraphNode_SequenceEvaluator_22;                      // 0xDD38(0x0040)
+		struct FAnimNode_SequenceEvaluator                         AnimGraphNode_SequenceEvaluator_21;                      // 0xDD78(0x0040)
+		struct FAnimNode_BlendListByBool                           AnimGraphNode_BlendListByBool_23;                        // 0xDDB8(0x0048)
+		struct FAnimNode_StateResult                               AnimGraphNode_StateResult_11;                            // 0xDE00(0x0020)
+		struct FAnimNode_SequenceEvaluator                         AnimGraphNode_SequenceEvaluator_20;                      // 0xDE20(0x0040)
+		struct FAnimNode_SequenceEvaluator                         AnimGraphNode_SequenceEvaluator_19;                      // 0xDE60(0x0040)
+		struct FAnimNode_BlendListByBool                           AnimGraphNode_BlendListByBool_22;                        // 0xDEA0(0x0048)
+		struct FAnimNode_StateResult                               AnimGraphNode_StateResult_10;                            // 0xDEE8(0x0020)
+		struct FAnimNode_SequenceEvaluator                         AnimGraphNode_SequenceEvaluator_18;                      // 0xDF08(0x0040)
+		struct FAnimNode_SequenceEvaluator                         AnimGraphNode_SequenceEvaluator_17;                      // 0xDF48(0x0040)
+		struct FAnimNode_SequenceEvaluator                         AnimGraphNode_SequenceEvaluator_16;                      // 0xDF88(0x0040)
+		struct FAnimNode_BlendListByBool                           AnimGraphNode_BlendListByBool_21;                        // 0xDFC8(0x0048)
+		struct FAnimNode_BlendListByBool                           AnimGraphNode_BlendListByBool_20;                        // 0xE010(0x0048)
+		struct FAnimNode_StateResult                               AnimGraphNode_StateResult_9;                             // 0xE058(0x0020)
+		struct FAnimNode_StateMachine                              AnimGraphNode_StateMachine_3;                            // 0xE078(0x00C8)
+		struct FAnimNode_BlendListByBool                           AnimGraphNode_BlendListByBool_19;                        // 0xE140(0x0048)
+		struct FAnimNode_SequenceEvaluator                         AnimGraphNode_SequenceEvaluator_15;                      // 0xE188(0x0040)
+		struct FAnimNode_SaveCachedPose                            AnimGraphNode_SaveCachedPose_24;                         // 0xE1C8(0x0108)
+		struct FAnimNode_SequenceEvaluator                         AnimGraphNode_SequenceEvaluator_14;                      // 0xE2D0(0x0040)
+		struct FAnimNode_BlendListByBool                           AnimGraphNode_BlendListByBool_18;                        // 0xE310(0x0048)
+		struct FAnimNode_SequenceEvaluator                         AnimGraphNode_SequenceEvaluator_13;                      // 0xE358(0x0040)
+		struct FAnimNode_SaveCachedPose                            AnimGraphNode_SaveCachedPose_23;                         // 0xE398(0x0108)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_73;                          // 0xE4A0(0x0028)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_72;                          // 0xE4C8(0x0028)
+		struct FAnimNode_BlendListByBool                           AnimGraphNode_BlendListByBool_17;                        // 0xE4F0(0x0048)
+		struct FAnimNode_BlendListByBool                           AnimGraphNode_BlendListByBool_16;                        // 0xE538(0x0048)
+		struct FAnimNode_SequenceEvaluator                         AnimGraphNode_SequenceEvaluator_12;                      // 0xE580(0x0040)
+		struct FAnimNode_SequenceEvaluator                         AnimGraphNode_SequenceEvaluator_11;                      // 0xE5C0(0x0040)
+		struct FAnimNode_BlendListByBool                           AnimGraphNode_BlendListByBool_15;                        // 0xE600(0x0048)
+		struct FAnimNode_SequenceEvaluator                         AnimGraphNode_SequenceEvaluator_10;                      // 0xE648(0x0040)
+		struct FAnimNode_BlendListByBool                           AnimGraphNode_BlendListByBool_14;                        // 0xE688(0x0048)
+		struct FAnimNode_SequenceEvaluator                         AnimGraphNode_SequenceEvaluator_9;                       // 0xE6D0(0x0040)
+		struct FAnimNode_BlendListByBool                           AnimGraphNode_BlendListByBool_13;                        // 0xE710(0x0048)
+		struct FAnimNode_SequenceEvaluator                         AnimGraphNode_SequenceEvaluator_8;                       // 0xE758(0x0040)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_71;                          // 0xE798(0x0028)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_70;                          // 0xE7C0(0x0028)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_69;                          // 0xE7E8(0x0028)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_68;                          // 0xE810(0x0028)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_67;                          // 0xE838(0x0028)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_66;                          // 0xE860(0x0028)
+		struct FAnimNode_SaveCachedPose                            AnimGraphNode_SaveCachedPose_22;                         // 0xE888(0x0108)
+		struct FAnimNode_SaveCachedPose                            AnimGraphNode_SaveCachedPose_21;                         // 0xE990(0x0108)
+		struct FAnimNode_SaveCachedPose                            AnimGraphNode_SaveCachedPose_20;                         // 0xEA98(0x0108)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_65;                          // 0xEBA0(0x0028)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_64;                          // 0xEBC8(0x0028)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_63;                          // 0xEBF0(0x0028)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_62;                          // 0xEC18(0x0028)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_61;                          // 0xEC40(0x0028)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_60;                          // 0xEC68(0x0028)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_59;                          // 0xEC90(0x0028)
+		struct FAnimNode_BlendListByBool                           AnimGraphNode_BlendListByBool_12;                        // 0xECB8(0x0048)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_58;                          // 0xED00(0x0028)
+		struct FAnimNode_SaveCachedPose                            AnimGraphNode_SaveCachedPose_19;                         // 0xED28(0x0108)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_57;                          // 0xEE30(0x0028)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_56;                          // 0xEE58(0x0028)
+		struct FAnimNode_SaveCachedPose                            AnimGraphNode_SaveCachedPose_18;                         // 0xEE80(0x0108)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_55;                          // 0xEF88(0x0028)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_54;                          // 0xEFB0(0x0028)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_53;                          // 0xEFD8(0x0028)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_52;                          // 0xF000(0x0028)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_51;                          // 0xF028(0x0028)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_50;                          // 0xF050(0x0028)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_49;                          // 0xF078(0x0028)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_48;                          // 0xF0A0(0x0028)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_47;                          // 0xF0C8(0x0028)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_46;                          // 0xF0F0(0x0028)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_45;                          // 0xF118(0x0028)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_44;                          // 0xF140(0x0028)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_43;                          // 0xF168(0x0028)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_42;                          // 0xF190(0x0028)
+		struct FAnimNode_SaveCachedPose                            AnimGraphNode_SaveCachedPose_17;                         // 0xF1B8(0x0108)
+		struct FAnimNode_SaveCachedPose                            AnimGraphNode_SaveCachedPose_16;                         // 0xF2C0(0x0108)
+		struct FAnimNode_SaveCachedPose                            AnimGraphNode_SaveCachedPose_15;                         // 0xF3C8(0x0108)
+		struct FAnimNode_SaveCachedPose                            AnimGraphNode_SaveCachedPose_14;                         // 0xF4D0(0x0108)
+		struct FAnimNode_SaveCachedPose                            AnimGraphNode_SaveCachedPose_13;                         // 0xF5D8(0x0108)
+		struct FAnimNode_SaveCachedPose                            AnimGraphNode_SaveCachedPose_12;                         // 0xF6E0(0x0108)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_41;                          // 0xF7E8(0x0028)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_40;                          // 0xF810(0x0028)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_39;                          // 0xF838(0x0028)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_38;                          // 0xF860(0x0028)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_37;                          // 0xF888(0x0028)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_36;                          // 0xF8B0(0x0028)
+		struct FAnimNode_SaveCachedPose                            AnimGraphNode_SaveCachedPose_11;                         // 0xF8D8(0x0108)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_35;                          // 0xF9E0(0x0028)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_34;                          // 0xFA08(0x0028)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_33;                          // 0xFA30(0x0028)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_32;                          // 0xFA58(0x0028)
+		struct FAnimNode_SaveCachedPose                            AnimGraphNode_SaveCachedPose_10;                         // 0xFA80(0x0108)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_31;                          // 0xFB88(0x0028)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_30;                          // 0xFBB0(0x0028)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_29;                          // 0xFBD8(0x0028)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_28;                          // 0xFC00(0x0028)
+		struct FAnimNode_MakeDynamicAdditive                       AnimGraphNode_MakeDynamicAdditive_4;                     // 0xFC28(0x0038)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_27;                          // 0xFC60(0x0028)
+		struct FAnimNode_MakeDynamicAdditive                       AnimGraphNode_MakeDynamicAdditive_3;                     // 0xFC88(0x0038)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_26;                          // 0xFCC0(0x0028)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_25;                          // 0xFCE8(0x0028)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_24;                          // 0xFD10(0x0028)
+		struct FAnimNode_MakeDynamicAdditive                       AnimGraphNode_MakeDynamicAdditive_2;                     // 0xFD38(0x0038)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_23;                          // 0xFD70(0x0028)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_22;                          // 0xFD98(0x0028)
+		struct FAnimNode_SaveCachedPose                            AnimGraphNode_SaveCachedPose_9;                          // 0xFDC0(0x0108)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_21;                          // 0xFEC8(0x0028)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_20;                          // 0xFEF0(0x0028)
+		struct FAnimNode_MakeDynamicAdditive                       AnimGraphNode_MakeDynamicAdditive;                       // 0xFF18(0x0038)
+		struct FAnimNode_LayeredBoneBlend                          AnimGraphNode_LayeredBoneBlend_10;                       // 0xFF50(0x00E0)
+		struct FAnimNode_SaveCachedPose                            AnimGraphNode_SaveCachedPose_8;                          // 0x10030(0x0108)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_19;                          // 0x10138(0x0028)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_18;                          // 0x10160(0x0028)
+		struct FAnimNode_BlendListByBool                           AnimGraphNode_BlendListByBool_11;                        // 0x10188(0x0048)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_17;                          // 0x101D0(0x0028)
+		struct FAnimNode_ControlRig                                AnimGraphNode_ControlRig_12;                             // 0x101F8(0x0470)
+		struct FAnimNode_Slot                                      AnimGraphNode_Slot_10;                                   // 0x10668(0x0048)
+		struct FAnimNode_SequencePlayer                            AnimGraphNode_SequencePlayer_11;                         // 0x106B0(0x0048)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_16;                          // 0x106F8(0x0028)
+		struct FAnimNode_ControlRig                                AnimGraphNode_ControlRig_11;                             // 0x10720(0x0470)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_15;                          // 0x10B90(0x0028)
+		struct FAnimNode_SaveCachedPose                            AnimGraphNode_SaveCachedPose_7;                          // 0x10BB8(0x0108)
+		struct FAnimNode_TwoWayBlend                               AnimGraphNode_TwoWayBlend_4;                             // 0x10CC0(0x00C8)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_14;                          // 0x10D88(0x0028)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_13;                          // 0x10DB0(0x0028)
+		struct FAnimNode_SequenceEvaluator                         AnimGraphNode_SequenceEvaluator_7;                       // 0x10DD8(0x0040)
+		struct FAnimNode_BlendListByBool                           AnimGraphNode_BlendListByBool_10;                        // 0x10E18(0x0048)
+		struct FAnimNode_SaveCachedPose                            AnimGraphNode_SaveCachedPose_6;                          // 0x10E60(0x0108)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_12;                          // 0x10F68(0x0028)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_11;                          // 0x10F90(0x0028)
+		struct FAnimNode_ControlRig                                AnimGraphNode_ControlRig_10;                             // 0x10FB8(0x0470)
+		struct FAnimNode_BlendListByBool                           AnimGraphNode_BlendListByBool_9;                         // 0x11428(0x0048)
+		struct FAnimNode_Slot                                      AnimGraphNode_Slot_9;                                    // 0x11470(0x0048)
+		unsigned char                                              UnknownData_0RJK[0x8];                                   // 0x114B8(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		struct FAnimNode_ModifyBone                                AnimGraphNode_ModifyBone;                                // 0x114C0(0x01A0)
+		struct FAnimNode_ConvertLocalToComponentSpace              AnimGraphNode_LocalToComponentSpace_3;                   // 0x11660(0x0020)
+		struct FAnimNode_ConvertComponentToLocalSpace              AnimGraphNode_ComponentToLocalSpace_4;                   // 0x11680(0x0020)
+		struct FAnimNode_BlendListByBool                           AnimGraphNode_BlendListByBool_8;                         // 0x116A0(0x0048)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_10;                          // 0x116E8(0x0028)
+		struct FAnimNode_Slot                                      AnimGraphNode_Slot_8;                                    // 0x11710(0x0048)
+		struct FAnimNode_Slot                                      AnimGraphNode_Slot_7;                                    // 0x11758(0x0048)
+		struct FAnimNode_BlendListByBool                           AnimGraphNode_BlendListByBool_7;                         // 0x117A0(0x0048)
+		struct FAnimNode_SequenceEvaluator                         AnimGraphNode_SequenceEvaluator_6;                       // 0x117E8(0x0040)
+		struct FAnimNode_SequenceEvaluator                         AnimGraphNode_SequenceEvaluator_5;                       // 0x11828(0x0040)
+		struct FAnimNode_BlendListByBool                           AnimGraphNode_BlendListByBool_6;                         // 0x11868(0x0048)
+		struct FAnimNode_LayeredBoneBlend                          AnimGraphNode_LayeredBoneBlend_9;                        // 0x118B0(0x00E0)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_9;                           // 0x11990(0x0028)
+		struct FAnimNode_FemaleBoneMods                            AnimGraphNode_FemaleBoneMods;                            // 0x119B8(0x00D0)
+		struct FAnimNode_ApplyBoneMods                             AnimGraphNode_ApplyBoneMods;                             // 0x11A88(0x00D0)
+		struct FAnimNode_ControlRig                                AnimGraphNode_ControlRig_9;                              // 0x11B58(0x0470)
+		struct FAnimNode_ConvertComponentToLocalSpace              AnimGraphNode_ComponentToLocalSpace_3;                   // 0x11FC8(0x0020)
+		struct FAnimNode_ConvertLocalToComponentSpace              AnimGraphNode_LocalToComponentSpace_2;                   // 0x11FE8(0x0020)
+		struct FAnimNode_BlendListByBool                           AnimGraphNode_BlendListByBool_5;                         // 0x12008(0x0048)
+		struct FAnimNode_Slot                                      AnimGraphNode_Slot_6;                                    // 0x12050(0x0048)
+		struct FAnimNode_Slot                                      AnimGraphNode_Slot_5;                                    // 0x12098(0x0048)
+		struct FAnimNode_Slot                                      AnimGraphNode_Slot_4;                                    // 0x120E0(0x0048)
+		struct FAnimNode_Slot                                      AnimGraphNode_Slot_3;                                    // 0x12128(0x0048)
+		struct FAnimNode_SaveCachedPose                            AnimGraphNode_SaveCachedPose_5;                          // 0x12170(0x0108)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_8;                           // 0x12278(0x0028)
+		struct FAnimNode_LayeredBoneBlend                          AnimGraphNode_LayeredBoneBlend_8;                        // 0x122A0(0x00E0)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_7;                           // 0x12380(0x0028)
+		struct FAnimNode_SequencePlayer                            AnimGraphNode_SequencePlayer_10;                         // 0x123A8(0x0048)
+		struct FAnimNode_BlendListByBool                           AnimGraphNode_BlendListByBool_4;                         // 0x123F0(0x0048)
+		struct FAnimNode_StrideWarping                             AnimGraphNode_StrideWarping;                             // 0x12438(0x0248)
+		struct FAnimNode_TransitionResult                          AnimGraphNode_TransitionResult_8;                        // 0x12680(0x0028)
+		struct FAnimNode_TransitionResult                          AnimGraphNode_TransitionResult_7;                        // 0x126A8(0x0028)
+		struct FAnimNode_TransitionResult                          AnimGraphNode_TransitionResult_6;                        // 0x126D0(0x0028)
+		struct FAnimNode_TransitionResult                          AnimGraphNode_TransitionResult_5;                        // 0x126F8(0x0028)
+		struct FAnimNode_ControlRig                                AnimGraphNode_ControlRig_8;                              // 0x12720(0x0470)
+		struct FAnimNode_SequencePlayer                            AnimGraphNode_SequencePlayer_9;                          // 0x12B90(0x0048)
+		struct FAnimNode_StateResult                               AnimGraphNode_StateResult_8;                             // 0x12BD8(0x0020)
+		struct FAnimNode_ControlRig                                AnimGraphNode_ControlRig_7;                              // 0x12BF8(0x0470)
+		struct FAnimNode_SequencePlayer                            AnimGraphNode_SequencePlayer_8;                          // 0x13068(0x0048)
+		struct FAnimNode_StateResult                               AnimGraphNode_StateResult_7;                             // 0x130B0(0x0020)
+		struct FAnimNode_ControlRig                                AnimGraphNode_ControlRig_6;                              // 0x130D0(0x0470)
+		struct FAnimNode_SequencePlayer                            AnimGraphNode_SequencePlayer_7;                          // 0x13540(0x0048)
+		struct FAnimNode_StateResult                               AnimGraphNode_StateResult_6;                             // 0x13588(0x0020)
+		struct FAnimNode_ControlRig                                AnimGraphNode_ControlRig_5;                              // 0x135A8(0x0470)
+		struct FAnimNode_SequencePlayer                            AnimGraphNode_SequencePlayer_6;                          // 0x13A18(0x0048)
+		struct FAnimNode_StateResult                               AnimGraphNode_StateResult_5;                             // 0x13A60(0x0020)
+		struct FAnimNode_StateMachine                              AnimGraphNode_StateMachine_2;                            // 0x13A80(0x00C8)
+		struct FAnimNode_ConvertLocalToComponentSpace              AnimGraphNode_LocalToComponentSpace;                     // 0x13B48(0x0020)
+		struct FAnimNode_ConvertComponentToLocalSpace              AnimGraphNode_ComponentToLocalSpace_2;                   // 0x13B68(0x0020)
+		struct FAnimNode_TransitionResult                          AnimGraphNode_TransitionResult_4;                        // 0x13B88(0x0028)
+		struct FAnimNode_TransitionResult                          AnimGraphNode_TransitionResult_3;                        // 0x13BB0(0x0028)
+		struct FAnimNode_TransitionResult                          AnimGraphNode_TransitionResult_2;                        // 0x13BD8(0x0028)
+		struct FAnimNode_TransitionResult                          AnimGraphNode_TransitionResult;                          // 0x13C00(0x0028)
+		struct FAnimNode_ControlRig                                AnimGraphNode_ControlRig_4;                              // 0x13C28(0x0470)
+		struct FAnimNode_SequencePlayer                            AnimGraphNode_SequencePlayer_5;                          // 0x14098(0x0048)
+		struct FAnimNode_StateResult                               AnimGraphNode_StateResult_4;                             // 0x140E0(0x0020)
+		struct FAnimNode_ControlRig                                AnimGraphNode_ControlRig_3;                              // 0x14100(0x0470)
+		struct FAnimNode_SequencePlayer                            AnimGraphNode_SequencePlayer_4;                          // 0x14570(0x0048)
+		struct FAnimNode_StateResult                               AnimGraphNode_StateResult_3;                             // 0x145B8(0x0020)
+		struct FAnimNode_ControlRig                                AnimGraphNode_ControlRig_2;                              // 0x145D8(0x0470)
+		struct FAnimNode_SequencePlayer                            AnimGraphNode_SequencePlayer_3;                          // 0x14A48(0x0048)
+		struct FAnimNode_StateResult                               AnimGraphNode_StateResult_2;                             // 0x14A90(0x0020)
+		struct FAnimNode_ControlRig                                AnimGraphNode_ControlRig;                                // 0x14AB0(0x0470)
+		struct FAnimNode_SequencePlayer                            AnimGraphNode_SequencePlayer_2;                          // 0x14F20(0x0048)
+		struct FAnimNode_StateResult                               AnimGraphNode_StateResult;                               // 0x14F68(0x0020)
+		struct FAnimNode_StateMachine                              AnimGraphNode_StateMachine;                              // 0x14F88(0x00C8)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_6;                           // 0x15050(0x0028)
+		struct FAnimNode_TwoWayBlend                               AnimGraphNode_TwoWayBlend_3;                             // 0x15078(0x00C8)
+		struct FAnimNode_LayeredBoneBlend                          AnimGraphNode_LayeredBoneBlend_7;                        // 0x15140(0x00E0)
+		struct FAnimNode_Slot                                      AnimGraphNode_Slot_2;                                    // 0x15220(0x0048)
+		struct FAnimNode_SequenceEvaluator                         AnimGraphNode_SequenceEvaluator_4;                       // 0x15268(0x0040)
+		struct FAnimNode_BlendListByBool                           AnimGraphNode_BlendListByBool_3;                         // 0x152A8(0x0048)
+		struct FAnimNode_SequenceEvaluator                         AnimGraphNode_SequenceEvaluator_3;                       // 0x152F0(0x0040)
+		struct FAnimNode_SaveCachedPose                            AnimGraphNode_SaveCachedPose_4;                          // 0x15330(0x0108)
+		struct FAnimNode_BlendListByEnum                           AnimGraphNode_BlendListByEnum;                           // 0x15438(0x0048)
+		struct FAnimNode_SaveCachedPose                            AnimGraphNode_SaveCachedPose_3;                          // 0x15480(0x0108)
+		struct FAnimNode_SequencePlayer                            AnimGraphNode_SequencePlayer;                            // 0x15588(0x0048)
+		struct FAnimNode_Root                                      AnimGraphNode_Root;                                      // 0x155D0(0x0020)
+		struct FAnimNode_SequenceEvaluator                         AnimGraphNode_SequenceEvaluator_2;                       // 0x155F0(0x0040)
+		struct FAnimNode_LayeredBoneBlend                          AnimGraphNode_LayeredBoneBlend_6;                        // 0x15630(0x00E0)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_5;                           // 0x15710(0x0028)
+		struct FAnimNode_BlendSpacePlayer                          AnimGraphNode_BlendSpacePlayer;                          // 0x15738(0x0070)
+		struct FAnimNode_SaveCachedPose                            AnimGraphNode_SaveCachedPose_2;                          // 0x157A8(0x0108)
+		struct FAnimNode_SequenceEvaluator                         AnimGraphNode_SequenceEvaluator;                         // 0x158B0(0x0040)
+		struct FAnimNode_ConvertComponentToLocalSpace              AnimGraphNode_ComponentToLocalSpace;                     // 0x158F0(0x0020)
+		struct FAnimNode_BlendListByBool                           AnimGraphNode_BlendListByBool_2;                         // 0x15910(0x0048)
+		struct FAnimNode_LayeredBoneBlend                          AnimGraphNode_LayeredBoneBlend_5;                        // 0x15958(0x00E0)
+		struct FAnimNode_LayeredBoneBlend                          AnimGraphNode_LayeredBoneBlend_4;                        // 0x15A38(0x00E0)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_4;                           // 0x15B18(0x0028)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_3;                           // 0x15B40(0x0028)
+		struct FAnimNode_SaveCachedPose                            AnimGraphNode_SaveCachedPose;                            // 0x15B68(0x0108)
+		struct FAnimNode_LayeredBoneBlend                          AnimGraphNode_LayeredBoneBlend_3;                        // 0x15C70(0x00E0)
+		struct FAnimNode_TwoWayBlend                               AnimGraphNode_TwoWayBlend_2;                             // 0x15D50(0x00C8)
+		struct FAnimNode_TwoWayBlend                               AnimGraphNode_TwoWayBlend;                               // 0x15E18(0x00C8)
+		struct FAnimNode_Slot                                      AnimGraphNode_Slot;                                      // 0x15EE0(0x0048)
+		struct FAnimNode_LayeredBoneBlend                          AnimGraphNode_LayeredBoneBlend_2;                        // 0x15F28(0x00E0)
+		struct FAnimNode_LayeredBoneBlend                          AnimGraphNode_LayeredBoneBlend;                          // 0x16008(0x00E0)
+		struct FAnimNode_BlendListByBool                           AnimGraphNode_BlendListByBool;                           // 0x160E8(0x0048)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_2;                           // 0x16130(0x0028)
+		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose;                             // 0x16158(0x0028)
+		struct FVector                                             K2Node_PropertyAccess_103;                               // 0x16180(0x0018) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		struct FVector                                             K2Node_PropertyAccess_102;                               // 0x16198(0x0018) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		struct FRotator                                            K2Node_PropertyAccess_101;                               // 0x161B0(0x0018) ZeroConstructor, IsPlainOldData, NoDestructor
+		bool                                                       K2Node_PropertyAccess_100;                               // 0x161C8(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		unsigned char                                              UnknownData_P2FD[0x7];                                   // 0x161C9(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		struct FRotator                                            K2Node_PropertyAccess_96;                                // 0x161D0(0x0018) ZeroConstructor, IsPlainOldData, NoDestructor
+		struct FRotator                                            K2Node_PropertyAccess_94;                                // 0x161E8(0x0018) ZeroConstructor, IsPlainOldData, NoDestructor
+		struct FRotator                                            K2Node_PropertyAccess_93;                                // 0x16200(0x0018) ZeroConstructor, IsPlainOldData, NoDestructor
+		struct FVector                                             K2Node_PropertyAccess_92;                                // 0x16218(0x0018) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		struct FVector                                             K2Node_PropertyAccess_88;                                // 0x16230(0x0018) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		float                                                      K2Node_PropertyAccess_87;                                // 0x16248(0x0004) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		unsigned char                                              UnknownData_E75A[0x4];                                   // 0x1624C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		struct FVector                                             K2Node_PropertyAccess_84;                                // 0x16250(0x0018) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		float                                                      K2Node_PropertyAccess_83;                                // 0x16268(0x0004) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		unsigned char                                              UnknownData_CMSG[0x4];                                   // 0x1626C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		struct FVector                                             K2Node_PropertyAccess_82;                                // 0x16270(0x0018) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		float                                                      K2Node_PropertyAccess_79;                                // 0x16288(0x0004) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		float                                                      K2Node_PropertyAccess_78;                                // 0x1628C(0x0004) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		float                                                      K2Node_PropertyAccess_77;                                // 0x16290(0x0004) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		float                                                      K2Node_PropertyAccess_76;                                // 0x16294(0x0004) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		bool                                                       K2Node_PropertyAccess_75;                                // 0x16298(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		unsigned char                                              UnknownData_M515[0x7];                                   // 0x16299(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		struct FVector                                             K2Node_PropertyAccess_74;                                // 0x162A0(0x0018) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		struct FVector                                             K2Node_PropertyAccess_71;                                // 0x162B8(0x0018) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		struct FRotator                                            K2Node_PropertyAccess_67;                                // 0x162D0(0x0018) ZeroConstructor, IsPlainOldData, NoDestructor
+		struct FVector                                             K2Node_PropertyAccess_66;                                // 0x162E8(0x0018) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		struct FVector                                             K2Node_PropertyAccess_57;                                // 0x16300(0x0018) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		struct FVector                                             K2Node_PropertyAccess_56;                                // 0x16318(0x0018) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		struct FVector                                             K2Node_PropertyAccess_50;                                // 0x16330(0x0018) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		struct FRotator                                            K2Node_PropertyAccess_49;                                // 0x16348(0x0018) ZeroConstructor, IsPlainOldData, NoDestructor
+		struct FVector                                             K2Node_PropertyAccess_48;                                // 0x16360(0x0018) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		struct FRotator                                            K2Node_PropertyAccess_47;                                // 0x16378(0x0018) ZeroConstructor, IsPlainOldData, NoDestructor
+		double                                                     __CustomProperty_HipAngle_C4F6799A428B86C4183E2FBB04A6E8AC; // 0x16390(0x0008) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     __CustomProperty_RelativeAngle_C4F6799A428B86C4183E2FBB04A6E8AC; // 0x16398(0x0008) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     __CustomProperty_HipAngle_0659CDFE474FD2CD14B4FD8BF1532DF0; // 0x163A0(0x0008) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     __CustomProperty_RelativeAngle_0659CDFE474FD2CD14B4FD8BF1532DF0; // 0x163A8(0x0008) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     __CustomProperty_HipAngle_775203BB416EF5C5238B0BAFEF3D3DCC; // 0x163B0(0x0008) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     __CustomProperty_RelativeAngle_775203BB416EF5C5238B0BAFEF3D3DCC; // 0x163B8(0x0008) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     __CustomProperty_HipAngle_F3F0D3E847FBB0FDA81E8099FF828805; // 0x163C0(0x0008) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     __CustomProperty_RelativeAngle_F3F0D3E847FBB0FDA81E8099FF828805; // 0x163C8(0x0008) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     __CustomProperty_HipAngle_B21456A04469CE6DECF1C48940607C9C; // 0x163D0(0x0008) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     __CustomProperty_RelativeAngle_B21456A04469CE6DECF1C48940607C9C; // 0x163D8(0x0008) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     __CustomProperty_HipAngle_06E2E76548C765535F8C9589B6071D8F; // 0x163E0(0x0008) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     __CustomProperty_RelativeAngle_06E2E76548C765535F8C9589B6071D8F; // 0x163E8(0x0008) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     __CustomProperty_HipAngle_4AB80AF84C324CF4BF3301B92F225991; // 0x163F0(0x0008) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     __CustomProperty_RelativeAngle_4AB80AF84C324CF4BF3301B92F225991; // 0x163F8(0x0008) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     __CustomProperty_HipAngle_6E88A4124AE7142ECA6F7397331A880E; // 0x16400(0x0008) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     __CustomProperty_RelativeAngle_6E88A4124AE7142ECA6F7397331A880E; // 0x16408(0x0008) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     __CustomProperty_HipAngle_B69F6BB544A6806C3088E5BFB64F7A08; // 0x16410(0x0008) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     __CustomProperty_RelativeAngle_B69F6BB544A6806C3088E5BFB64F7A08; // 0x16418(0x0008) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     __CustomProperty_HipAngle_AA444B68423B6FAF1AB55D9935BBFB55; // 0x16420(0x0008) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     __CustomProperty_RelativeAngle_AA444B68423B6FAF1AB55D9935BBFB55; // 0x16428(0x0008) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     __CustomProperty_HipAngle_B4400A394EF19973C454AEAF11CE8E03; // 0x16430(0x0008) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     __CustomProperty_RelativeAngle_B4400A394EF19973C454AEAF11CE8E03; // 0x16438(0x0008) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     __CustomProperty_HipAngle_9A6E719A4DA109EAF40589801BC190EB; // 0x16440(0x0008) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     __CustomProperty_RelativeAngle_9A6E719A4DA109EAF40589801BC190EB; // 0x16448(0x0008) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     __CustomProperty_HipAngle_C7E17EE541AAC42CCFCED4B04D22AE09; // 0x16450(0x0008) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     __CustomProperty_RelativeAngle_C7E17EE541AAC42CCFCED4B04D22AE09; // 0x16458(0x0008) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     __CustomProperty_BoneModifier_Shoulders_45D08A224EC0F34C3819F595C9C6E59E; // 0x16460(0x0008) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     __CustomProperty_BoneModifier_TorsoSize_45D08A224EC0F34C3819F595C9C6E59E; // 0x16468(0x0008) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     __CustomProperty_BoneModifier_ArmLength_45D08A224EC0F34C3819F595C9C6E59E; // 0x16470(0x0008) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		struct FVector                                             __CustomProperty_WeaponPositionOffset_45D08A224EC0F34C3819F595C9C6E59E; // 0x16478(0x0018) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     __CustomProperty_LeftHandIKAlpha_45D08A224EC0F34C3819F595C9C6E59E; // 0x16490(0x0008) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		bool                                                       __CustomProperty_IsFemale_45D08A224EC0F34C3819F595C9C6E59E; // 0x16498(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		unsigned char                                              UnknownData_U0SS[0x3];                                   // 0x16499(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		float                                                      __CustomProperty_RightHandIKAlpha_45D08A224EC0F34C3819F595C9C6E59E; // 0x1649C(0x0004) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     __CustomProperty_HipAngle_739E073549A191D653087ABB9395AD2E; // 0x164A0(0x0008) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     __CustomProperty_RelativeAngle_739E073549A191D653087ABB9395AD2E; // 0x164A8(0x0008) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		bool                                                       __CustomProperty_bUpdateInstantly_70F814824E1F2517DC3C5C9DBE08009C; // 0x164B0(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		bool                                                       __CustomProperty_bIsLocallyControlled_70F814824E1F2517DC3C5C9DBE08009C; // 0x164B1(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		bool                                                       __CustomProperty_bIsOnDino_70F814824E1F2517DC3C5C9DBE08009C; // 0x164B2(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		unsigned char                                              UnknownData_OSNH[0x5];                                   // 0x164B3(0x0005) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		double                                                     __CustomProperty_SpeedRemapped_70F814824E1F2517DC3C5C9DBE08009C; // 0x164B8(0x0008) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		bool                                                       __CustomProperty_bProne_70F814824E1F2517DC3C5C9DBE08009C; // 0x164C0(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		unsigned char                                              UnknownData_DSJZ[0x7];                                   // 0x164C1(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		double                                                     __CustomProperty_BoneModifiersLegLengthPercentage_70F814824E1F2517DC3C5C9DBE08009C; // 0x164C8(0x0008) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     __CustomProperty_TraceDistanceFactorBelow_70F814824E1F2517DC3C5C9DBE08009C; // 0x164D0(0x0008) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     __CustomProperty_TraceDistanceFactorAbove_70F814824E1F2517DC3C5C9DBE08009C; // 0x164D8(0x0008) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     __CustomProperty_LegLengthHipZOffset_70F814824E1F2517DC3C5C9DBE08009C; // 0x164E0(0x0008) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		struct FVector                                             __CustomProperty_SmoothedLocation_70F814824E1F2517DC3C5C9DBE08009C; // 0x164E8(0x0018) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		struct FVector                                             __CustomProperty_FPVShadowMeshOffset_70F814824E1F2517DC3C5C9DBE08009C; // 0x16500(0x0018) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		bool                                                       __CustomProperty_bCrouched_70F814824E1F2517DC3C5C9DBE08009C; // 0x16518(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		unsigned char                                              UnknownData_I9TH[0x7];                                   // 0x16519(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		struct FVector                                             __CustomProperty_R_WeaponShift_64FBF270473F88D767DBDAB5A3F1C6E0; // 0x16520(0x0018) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		struct FVector                                             __CustomProperty_L_WeaponShift_64FBF270473F88D767DBDAB5A3F1C6E0; // 0x16538(0x0018) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     __CustomProperty_BoneModifier_Shoulders_64FBF270473F88D767DBDAB5A3F1C6E0; // 0x16550(0x0008) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     __CustomProperty_BoneModifier_TorsoSize_64FBF270473F88D767DBDAB5A3F1C6E0; // 0x16558(0x0008) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     __CustomProperty_BoneModifier_ArmLength_64FBF270473F88D767DBDAB5A3F1C6E0; // 0x16560(0x0008) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		struct FVector                                             __CustomProperty_WeaponPositionOffset_64FBF270473F88D767DBDAB5A3F1C6E0; // 0x16568(0x0018) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     __CustomProperty_LeftHandIKAlpha_64FBF270473F88D767DBDAB5A3F1C6E0; // 0x16580(0x0008) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		bool                                                       __CustomProperty_IsFemale_64FBF270473F88D767DBDAB5A3F1C6E0; // 0x16588(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		unsigned char                                              UnknownData_FL1B[0x3];                                   // 0x16589(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		float                                                      __CustomProperty_RightHandIKAlpha_64FBF270473F88D767DBDAB5A3F1C6E0; // 0x1658C(0x0004) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		class UAnimInstance*                                       __CustomProperty_AnimInstance_7EA4D54440723237DAFC2E8D1560D608; // 0x16590(0x0008) ZeroConstructor, NoDestructor, HasGetValueTypeHash
+		unsigned char                                              PhysicsMode;                                             // 0x16598(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		bool                                                       bSprinting;                                              // 0x16599(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		bool                                                       bPlaySprintingAnim;                                      // 0x1659A(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		bool                                                       bMoving;                                                 // 0x1659B(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		bool                                                       bWalking;                                                // 0x1659C(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		unsigned char                                              UnknownData_MNXZ[0x3];                                   // 0x1659D(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		double                                                     Direction;                                               // 0x165A0(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     AimPitch;                                                // 0x165A8(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     AimYaw;                                                  // 0x165B0(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     RightLeft;                                               // 0x165B8(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     ForwardBack;                                             // 0x165C0(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		struct FRotator                                            RootRotOffset;                                           // 0x165C8(0x0018) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor
+		bool                                                       bTurning;                                                // 0x165E0(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		unsigned char                                              UnknownData_VPQL[0x7];                                   // 0x165E1(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		double                                                     TurnSpeed;                                               // 0x165E8(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		bool                                                       bCrouched;                                               // 0x165F0(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		bool                                                       bProne;                                                  // 0x165F1(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		unsigned char                                              UnknownData_RZ6H[0x6];                                   // 0x165F2(0x0006) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		struct FVector                                             RootLocOffset;                                           // 0x165F8(0x0018) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     MovementAnimRate;                                        // 0x16610(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		bool                                                       bIsRiding;                                               // 0x16618(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		unsigned char                                              UnknownData_AKPH[0x7];                                   // 0x16619(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		class UAnimSequence*                                       RidingAnimSeq;                                           // 0x16620(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, NoDestructor, HasGetValueTypeHash
+		class UAnimSequence*                                       RidingMoveAnimSeq;                                       // 0x16628(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, NoDestructor, HasGetValueTypeHash
+		double                                                     RidingDinoSpeedRatio;                                    // 0x16630(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		bool                                                       bRidingIsDinoMoving;                                     // 0x16638(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		bool                                                       bBlinking;                                               // 0x16639(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		unsigned char                                              UnknownData_AKKE[0x6];                                   // 0x1663A(0x0006) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		double                                                     LastTimeSwimmingDouble;                                  // 0x16640(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		bool                                                       bIsCarried;                                              // 0x16648(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		bool                                                       bUseAlternateAimOffset;                                  // 0x16649(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		unsigned char                                              UnknownData_639J[0x6];                                   // 0x1664A(0x0006) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		double                                                     AimOffsetYawSpeed;                                       // 0x16650(0x0008) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		bool                                                       bIsClimbing;                                             // 0x16658(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		unsigned char                                              UnknownData_U904[0x3];                                   // 0x16659(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		int32_t                                                    ClimbingInt;                                             // 0x1665C(0x0004) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     MovementSpeedFastPower;                                  // 0x16660(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     MovementSpeedFastStartPowerRatio;                        // 0x16668(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     CurrentAimPitchBlend;                                    // 0x16670(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		bool                                                       bUseTargetingAnim;                                       // 0x16678(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		bool                                                       bIsTargeting;                                            // 0x16679(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		bool                                                       bDisableAimInProne;                                      // 0x1667A(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		bool                                                       bUseBallistaAimOffset;                                   // 0x1667B(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		unsigned char                                              UnknownData_YM1O[0x4];                                   // 0x1667C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		double                                                     BallistaYaw;                                             // 0x16680(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		struct FVector                                             LastLadderLocation;                                      // 0x16688(0x0018) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		class UAnimSequence*                                       AlternateStandingAnimSeq;                                // 0x166A0(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, NoDestructor, HasGetValueTypeHash
+		bool                                                       bUseAlternateStandingAnim;                               // 0x166A8(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		unsigned char                                              UnknownData_42Z7[0x7];                                   // 0x166A9(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		class UAnimSequence*                                       AdditiveStandingAnimSeq;                                 // 0x166B0(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, NoDestructor, HasGetValueTypeHash
+		double                                                     AdditiveLoopAnimWeight;                                  // 0x166B8(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		bool                                                       bUseAdditiveStandingAnim;                                // 0x166C0(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		unsigned char                                              UnknownData_KAEJ[0x7];                                   // 0x166C1(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		double                                                     AdditiveStandingBlendIn;                                 // 0x166C8(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     AdditiveStandingBlendOut;                                // 0x166D0(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     AlternateStandingBlendIn;                                // 0x166D8(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     AlternateStandingBlendOut;                               // 0x166E0(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		bool                                                       bIsCarriedAsPassenger;                                   // 0x166E8(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		unsigned char                                              UnknownData_UIRL[0x7];                                   // 0x166E9(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		double                                                     AimOffsetAlpha;                                          // 0x166F0(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		bool                                                       bIsGliding;                                              // 0x166F8(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		unsigned char                                              UnknownData_Q6G5[0x7];                                   // 0x166F9(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		class UAnimSequence*                                       GlidingAnimSeq;                                          // 0x16700(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, NoDestructor, HasGetValueTypeHash
+		bool                                                       bUsingMountedWeapon;                                     // 0x16708(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		bool                                                       bCharacterAdditiveAnimationIsNonAdditive;                // 0x16709(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		bool                                                       bUseAltBlendSpace_Falling;                               // 0x1670A(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		bool                                                       bUseAltBlendSpace_Swimming;                              // 0x1670B(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		bool                                                       bHasFistsEquipped;                                       // 0x1670C(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		bool                                                       HasValidClimbingTarget;                                  // 0x1670D(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		unsigned char                                              UnknownData_GPIL[0x2];                                   // 0x1670E(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		double                                                     ClimbingFallingLeftRight;                                // 0x16710(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     ClimbingFallingForwardBack;                              // 0x16718(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		bool                                                       bIsUsingGliderSuit;                                      // 0x16720(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		bool                                                       bIsUsingGliderSuit_Diving;                               // 0x16721(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		unsigned char                                              UnknownData_VEW2[0x6];                                   // 0x16722(0x0006) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		double                                                     GliderSuit_LeftRight;                                    // 0x16728(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     GliderSuit_UpDown;                                       // 0x16730(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     RequiredGlidingRotaitonDeltaToPlayTurnAnims;             // 0x16738(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     GliderSuitTurnInterpSpeed;                               // 0x16740(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		struct FRotator                                            GliderSuit_RemoteClientDesiredRotation;                  // 0x16748(0x0018) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor
+		bool                                                       bClimbingPickDefaultBackToFallingBlends;                 // 0x16760(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		unsigned char                                              UnknownData_QQK0[0x7];                                   // 0x16761(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		class FScriptMulticastDelegate                             NewEventDispatcher;                                      // 0x16768(0x0010) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, BlueprintAssignable, BlueprintCallable
+		class UBlendSpace*                                         OverrideBlendSpace;                                      // 0x16778(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, NoDestructor, HasGetValueTypeHash
+		class APrimalCharacter*                                    primalChar;                                              // 0x16780(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnTemplate, DisableEditOnInstance, NoDestructor, HasGetValueTypeHash
+		int32_t                                                    IdleAnimIndex;                                           // 0x16788(0x0004) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		float                                                      DirectionReverse;                                        // 0x1678C(0x0004) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		float                                                      DirectionAngle;                                          // 0x16790(0x0004) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		float                                                      DirectionJumpAngle;                                      // 0x16794(0x0004) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		float                                                      DirectionJumpAngleHalf;                                  // 0x16798(0x0004) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		bool                                                       WasMovingLastUpdate;                                     // 0x1679C(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		unsigned char                                              UnknownData_I4TT[0x3];                                   // 0x1679D(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		double                                                     CardinalDirectionDeadZone;                               // 0x167A0(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		struct FRotator                                            ActorWorldRotation;                                      // 0x167A8(0x0018) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor
+		struct FVector                                             ActorVelocity;                                           // 0x167C0(0x0018) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		E_CardinalDirection4                                       CurrentCardinalDirectionNoOffset;                        // 0x167D8(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		unsigned char                                              UnknownData_4FW0[0x7];                                   // 0x167D9(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		struct FAnimStruct_CardinalDirection4                      MoveCardinalAnims;                                       // 0x167E0(0x0020) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, NoDestructor, HasGetValueTypeHash
+		double                                                     DirectionAngleWithCardinalOffset;                        // 0x16800(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		struct FVector                                             LocalVelocity;                                           // 0x16808(0x0018) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		struct FVector                                             Direction2D;                                             // 0x16820(0x0018) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     MovementStrideScale;                                     // 0x16838(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     MovementWithStrideWarpPlayRate;                          // 0x16840(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     StrideWarpingRatio;                                      // 0x16848(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		struct FAnimStruct_CardinalDirection4                      WalkCardinalAnims;                                       // 0x16850(0x0020) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, NoDestructor, HasGetValueTypeHash
+		class UAnimSequence*                                       SprintFwdAnim;                                           // 0x16870(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, NoDestructor, HasGetValueTypeHash
+		double                                                     MinSprintSpeed;                                          // 0x16878(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     LeftHandIKAlpha;                                         // 0x16880(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     LastAimYawOffset;                                        // 0x16888(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     ScreenRightSide_AimingLeft_AimYawOffset;                 // 0x16890(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     ScreenRightSide_AimingRight_AimYawOffset;                // 0x16898(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     ScreenRightSide_AimingLeft_AimYawFactor;                 // 0x168A0(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     ScreenRightSide_AimingRight_AimYawFactor;                // 0x168A8(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     ScreenLeftSide_AimingLeft_AimYawFactor;                  // 0x168B0(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     ScreenLeftSide_AimingRight_AimYawFactor;                 // 0x168B8(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     ScreenLeftSide_AimingRight_AimYawOffset;                 // 0x168C0(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     ScreenLeftSide_AimingLeft_AimYawOffset;                  // 0x168C8(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		float                                                      RightHandIKAlpha;                                        // 0x168D0(0x0004) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		unsigned char                                              UnknownData_UKUO[0x4];                                   // 0x168D4(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		double                                                     MovementAnimRateCrouching;                               // 0x168D8(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     MovementAnimRateStanding;                                // 0x168E0(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		struct FVector                                             WorldAcceleration2D;                                     // 0x168E8(0x0018) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		struct FVector                                             LocalAcceleration2D;                                     // 0x16900(0x0018) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		bool                                                       HasAcceleration;                                         // 0x16918(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		unsigned char                                              UnknownData_JP9G[0x7];                                   // 0x16919(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		struct FAnimStruct_CardinalDirection4                      StopCardinalAnims;                                       // 0x16920(0x0020) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, NoDestructor, HasGetValueTypeHash
+		class FName                                                LocomotionDistanceCurveName;                             // 0x16940(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		class UAnimSequenceBase*                                   WeaponIdleBase;                                          // 0x16948(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, NoDestructor, UObjectWrapper, HasGetValueTypeHash
+		float                                                      StoppingState_RightHandLayerAlpha;                       // 0x16950(0x0004) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		bool                                                       DisableLHandIK;                                          // 0x16954(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		bool                                                       DisableRHandIK;                                          // 0x16955(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		bool                                                       StrideWarpingAffectsArms;                                // 0x16956(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		unsigned char                                              UnknownData_095G[0x1];                                   // 0x16957(0x0001) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		double                                                     Layering_L_Arm_Add;                                      // 0x16958(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     Layering_L_Arm;                                          // 0x16960(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     Layering_R_Arm_Add;                                      // 0x16968(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     Layering_R_Arm;                                          // 0x16970(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		class UAnimSequenceBase*                                   WeaponSwimmingIdleBase;                                  // 0x16978(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, NoDestructor, UObjectWrapper, HasGetValueTypeHash
+		EMovementMode                                              CurrentMovementMode;                                     // 0x16980(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		bool                                                       AltAimLayering;                                          // 0x16981(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		unsigned char                                              UnknownData_4IJA[0x6];                                   // 0x16982(0x0006) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		double                                                     Layering_Spine_Add;                                      // 0x16988(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     Layering_Spine;                                          // 0x16990(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     Layering_Head_Add;                                       // 0x16998(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     Layering_Head;                                           // 0x169A0(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		float                                                      StoppingState_LeftHandLayerAlpha;                        // 0x169A8(0x0004) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		unsigned char                                              UnknownData_MVGQ[0x4];                                   // 0x169AC(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		double                                                     Layering_R_Hand_Add;                                     // 0x169B0(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     Layering_R_Hand;                                         // 0x169B8(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     Layering_L_Hand_Add;                                     // 0x169C0(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     Layering_L_Hand;                                         // 0x169C8(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     Layering_Pelvis;                                         // 0x169D0(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     Layering_Legs;                                           // 0x169D8(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		class UAnimSequenceBase*                                   CrouchIdleBase;                                          // 0x169E0(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, NoDestructor, UObjectWrapper, HasGetValueTypeHash
+		bool                                                       Layering_L_Hand_MeshSpaceRot;                            // 0x169E8(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		bool                                                       Layering_R_Hand_MeshSpaceRot;                            // 0x169E9(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		unsigned char                                              UnknownData_OKP4[0x6];                                   // 0x169EA(0x0006) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		class UAnimSequenceBase*                                   OverridePose;                                            // 0x169F0(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, NoDestructor, UObjectWrapper, HasGetValueTypeHash
+		class UAnimSequenceBase*                                   RightFingerOverride;                                     // 0x169F8(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, NoDestructor, UObjectWrapper, HasGetValueTypeHash
+		bool                                                       UseLeftFingerOverride;                                   // 0x16A00(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		bool                                                       UseRightFingerOverride;                                  // 0x16A01(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		unsigned char                                              UnknownData_Q0VX[0x6];                                   // 0x16A02(0x0006) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		class UAnimSequenceBase*                                   LeftFingerOverride;                                      // 0x16A08(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, NoDestructor, UObjectWrapper, HasGetValueTypeHash
+		class UAnimSequenceBase*                                   NormalIdle;                                              // 0x16A10(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, NoDestructor, UObjectWrapper, HasGetValueTypeHash
+		bool                                                       bEnableAnimationGroundConforming;                        // 0x16A18(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		bool                                                       EnableInAirLayering;                                     // 0x16A19(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		bool                                                       UseOverridePoseLayering;                                 // 0x16A1A(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		unsigned char                                              UnknownData_QDCR[0x5];                                   // 0x16A1B(0x0005) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		struct FVector2D                                           LeanAmountSmoothed;                                      // 0x16A20(0x0010) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		struct FVector                                             LocalVelocityLastFrame;                                  // 0x16A30(0x0018) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		struct FVector                                             LocalDerivedAcceleration;                                // 0x16A48(0x0018) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		struct FVector                                             LocationLastFrame;                                       // 0x16A60(0x0018) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		struct FVector                                             CurrentLeaningSpringPosition;                            // 0x16A78(0x0018) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		struct FRotator                                            CurrentLeaningSpringRotation;                            // 0x16A90(0x0018) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor
+		struct FVector                                             SpringTarget;                                            // 0x16AA8(0x0018) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		struct FVector2D                                           Diff2D;                                                  // 0x16AC0(0x0010) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     SpeedLeaningModifier;                                    // 0x16AD0(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     VelocityYSmoothed;                                       // 0x16AD8(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		struct FVector                                             SpringDelta;                                             // 0x16AE0(0x0018) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		struct FVector                                             SpringDeltaAcceleration;                                 // 0x16AF8(0x0018) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     CurrentAccel;                                            // 0x16B10(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		bool                                                       bActivatePoseLayering;                                   // 0x16B18(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		bool                                                       PoseLayeringLeft;                                        // 0x16B19(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		unsigned char                                              UnknownData_JUCA[0x6];                                   // 0x16B1A(0x0006) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		double                                                     SpeedLastFrame;                                          // 0x16B20(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		TArray<struct FFoot_Locking_IK>                            FootLockingIKElements;                                   // 0x16B28(0x0010) Edit, BlueprintVisible, DisableEditOnInstance
+		struct FVector                                             MeshLocationSmoothed;                                    // 0x16B38(0x0018) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		struct FTransform                                          FootTransformL;                                          // 0x16B50(0x0060) Edit, BlueprintVisible, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		struct FTransform                                          FootTransformR;                                          // 0x16BB0(0x0060) Edit, BlueprintVisible, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     HipZOffset;                                              // 0x16C10(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		struct FVector                                             HipOffset;                                               // 0x16C18(0x0018) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		struct FVector                                             KneePV_L;                                                // 0x16C30(0x0018) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		struct FVector                                             KneePV_R;                                                // 0x16C48(0x0018) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		TMap<EMovementMode, double>                                InterpSpeedForMovementMode;                              // 0x16C60(0x0050) Edit, BlueprintVisible, DisableEditOnInstance
+		EMovementMode                                              CurrentMovementModeLastFrame;                            // 0x16CB0(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		unsigned char                                              UnknownData_29ET[0x7];                                   // 0x16CB1(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		double                                                     LandedTimer;                                             // 0x16CB8(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     FootIKAlpha;                                             // 0x16CC0(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		bool                                                       UseCrouchPoseLayering;                                   // 0x16CC8(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		unsigned char                                              UnknownData_WRMP[0x3];                                   // 0x16CC9(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		float                                                      FootIKRotationAlpha;                                     // 0x16CCC(0x0004) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		bool                                                       UsePoseLayeringDuringTargeting;                          // 0x16CD0(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		unsigned char                                              UnknownData_XG23[0x7];                                   // 0x16CD1(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		class UAnimSequenceBase*                                   OverridePoseAlt;                                         // 0x16CD8(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, NoDestructor, UObjectWrapper, HasGetValueTypeHash
+		bool                                                       UseOverridePoseAlt;                                      // 0x16CE0(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		unsigned char                                              UnknownData_P1Y5[0x7];                                   // 0x16CE1(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		class UAnimSequenceBase*                                   CrouchOverridePoseAlt;                                   // 0x16CE8(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, NoDestructor, UObjectWrapper, HasGetValueTypeHash
+		class UAnimSequenceBase*                                   CrouchOverridePose;                                      // 0x16CF0(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, NoDestructor, UObjectWrapper, HasGetValueTypeHash
+		bool                                                       ForceAltAimFromWeaponAnimBP;                             // 0x16CF8(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		unsigned char                                              UnknownData_F4TU[0x7];                                   // 0x16CF9(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		class UAnimSequenceBase*                                   SprintOverridePose;                                      // 0x16D00(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, NoDestructor, UObjectWrapper, HasGetValueTypeHash
+		bool                                                       EnableRidingLayering;                                    // 0x16D08(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		unsigned char                                              UnknownData_U451[0x7];                                   // 0x16D09(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		double                                                     InterpLayeringSpineAdd;                                  // 0x16D10(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     InterpLayeringSpine;                                     // 0x16D18(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     InterpLayeringHeadAdd;                                   // 0x16D20(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     InterpLayeringHead;                                      // 0x16D28(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     InterpLayeringR_ArmAdd;                                  // 0x16D30(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     InterpLayeringR_Arm;                                     // 0x16D38(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     InterpLayeringR_HandAdd;                                 // 0x16D40(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     InterpLayeringR_Hand;                                    // 0x16D48(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     InterpLayeringL_HandAdd;                                 // 0x16D50(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     InterpLayeringL_Hand;                                    // 0x16D58(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     InterpLayeringL_ArmAdd;                                  // 0x16D60(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     InterpLayeringL_Arm;                                     // 0x16D68(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     LayeringInterpSpeed;                                     // 0x16D70(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		bool                                                       GroundConformLinked;                                     // 0x16D78(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		unsigned char                                              UnknownData_UL2Y[0x7];                                   // 0x16D79(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		class UClass*                                              GroundConfromAnimationInstance;                          // 0x16D80(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, NoDestructor, HasGetValueTypeHash
+		float                                                      DirectionAngleHip;                                       // 0x16D88(0x0004) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		unsigned char                                              UnknownData_WXMR[0x4];                                   // 0x16D8C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		double                                                     DirectionAngleN;                                         // 0x16D90(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     DirectionAngleE;                                         // 0x16D98(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     DirectionAngleS;                                         // 0x16DA0(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     DirectionAngleW;                                         // 0x16DA8(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     DirectionAngleNHip;                                      // 0x16DB0(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     DirectionAngleEHip;                                      // 0x16DB8(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     DirectionAngleSHip;                                      // 0x16DC0(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     DirectionAngleWHip;                                      // 0x16DC8(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		float                                                      HipRotationFactorN;                                      // 0x16DD0(0x0004) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		float                                                      HipRotationFactorE;                                      // 0x16DD4(0x0004) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		float                                                      HipRotationFactorS;                                      // 0x16DD8(0x0004) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		float                                                      HipRotationFactorW;                                      // 0x16DDC(0x0004) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     DirectionAngleInterpSpeed;                               // 0x16DE0(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     DirectionAngleHipInterpSpeed;                            // 0x16DE8(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		bool                                                       bIsSeated;                                               // 0x16DF0(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		unsigned char                                              UnknownData_39EY[0x7];                                   // 0x16DF1(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		double                                                     CurrentIKTraceDistanceFactor;                            // 0x16DF8(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     HipZOffsetLimit;                                         // 0x16E00(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     HipZOffsetLimit_Crouched;                                // 0x16E08(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     CurrentZOffsetLimit;                                     // 0x16E10(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		bool                                                       PlayFullBodyIdle;                                        // 0x16E18(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		bool                                                       PoseLayerCurveActive;                                    // 0x16E19(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		unsigned char                                              UnknownData_EZMT[0x6];                                   // 0x16E1A(0x0006) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		struct FVector                                             FPVShadowMeshOffset_LastFrame;                           // 0x16E20(0x0018) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		class UAnimSequenceBase*                                   FallingAnimBase;                                         // 0x16E38(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, NoDestructor, UObjectWrapper, HasGetValueTypeHash
+		bool                                                       bDebugLeaning;                                           // 0x16E40(0x0001) Edit, BlueprintVisible, ZeroConstructor, Transient, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		bool                                                       PoseLayering_AltValue01;                                 // 0x16E41(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		bool                                                       PoseLayering_AltValue02;                                 // 0x16E42(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		bool                                                       PoseLayering_AltValue03;                                 // 0x16E43(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		bool                                                       PoseLayering_Eat;                                        // 0x16E44(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		bool                                                       PoseLayering_Harvest;                                    // 0x16E45(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		unsigned char                                              UnknownData_OUXS[0x2];                                   // 0x16E46(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		float                                                      InterpOverrideLayeringSpineAdd;                          // 0x16E48(0x0004) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		float                                                      InterpOverrideL_Hand;                                    // 0x16E4C(0x0004) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		float                                                      InterpOverrideL_Arm;                                     // 0x16E50(0x0004) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		float                                                      InterpOverrideR_Hand;                                    // 0x16E54(0x0004) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		float                                                      InterpOverrideL_ArmAdd;                                  // 0x16E58(0x0004) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		float                                                      InterpOverrideL_HandAdd;                                 // 0x16E5C(0x0004) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		float                                                      InterpOverrideR_HandAdd;                                 // 0x16E60(0x0004) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		float                                                      InterpOverrideSpine;                                     // 0x16E64(0x0004) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		float                                                      InterpOverrideHead;                                      // 0x16E68(0x0004) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		float                                                      InterpOverrideHeadAdd;                                   // 0x16E6C(0x0004) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		float                                                      InterpOverrideR_Arm;                                     // 0x16E70(0x0004) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		float                                                      InterpOverrideR_ArmAdd;                                  // 0x16E74(0x0004) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     OverrideSpineAdd;                                        // 0x16E78(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     OverrideSpine;                                           // 0x16E80(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     OverrideHeadAdd;                                         // 0x16E88(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     OverrideHead;                                            // 0x16E90(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     OverrideR_ArmAdd;                                        // 0x16E98(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     OverrideR_Arm;                                           // 0x16EA0(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     OverrideR_HandAdd;                                       // 0x16EA8(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     OverrideR_Hand;                                          // 0x16EB0(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     OverrideL_HandAdd;                                       // 0x16EB8(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     OverrideL_Hand;                                          // 0x16EC0(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     OverrideL_ArmAdd;                                        // 0x16EC8(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     OverrideL_Arm;                                           // 0x16ED0(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		bool                                                       OverrideL_HandMeshSpaceRot;                              // 0x16ED8(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		bool                                                       OverrideR_HandMeshSpaceRot;                              // 0x16ED9(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		unsigned char                                              UnknownData_XRP8[0x6];                                   // 0x16EDA(0x0006) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		class UAnimSequence*                                       DefaultShieldAnimation;                                  // 0x16EE0(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, NoDestructor, HasGetValueTypeHash
+		bool                                                       IsUsingShield;                                           // 0x16EE8(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		bool                                                       PoseLayeringShield;                                      // 0x16EE9(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		bool                                                       EnableFullBodyIdleLayering;                              // 0x16EEA(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		unsigned char                                              UnknownData_J1XJ[0x5];                                   // 0x16EEB(0x0005) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		double                                                     TurnSpeedInterpolated;                                   // 0x16EF0(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		bool                                                       IsFemale;                                                // 0x16EF8(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		unsigned char                                              UnknownData_E3AJ[0x7];                                   // 0x16EF9(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		struct FVector                                             FPVShadowMeshOffset;                                     // 0x16F00(0x0018) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     LegLengthHipZOffset;                                     // 0x16F18(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     TraceDistanceFactorAbove;                                // 0x16F20(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     TraceDistanceFactorBelow;                                // 0x16F28(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		float                                                      BoneModifiersLegLengthPercentage;                        // 0x16F30(0x0004) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		unsigned char                                              UnknownData_HXK5[0x4];                                   // 0x16F34(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		double                                                     SpeedRemapped;                                           // 0x16F38(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		bool                                                       bIsOnDino;                                               // 0x16F40(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		bool                                                       bIsLocallyControlled;                                    // 0x16F41(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		unsigned char                                              UnknownData_2LD7[0x2];                                   // 0x16F42(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		float                                                      BoneModifierArmLength;                                   // 0x16F44(0x0004) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		float                                                      BoneModifierShoulders;                                   // 0x16F48(0x0004) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		float                                                      BoneModifierTorsoSize;                                   // 0x16F4C(0x0004) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		float                                                      BoneModifierTorso;                                       // 0x16F50(0x0004) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		float                                                      BoneModifierChest;                                       // 0x16F54(0x0004) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		struct FVector                                             WeaponPositionOffset_ShortArms;                          // 0x16F58(0x0018) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		float                                                      CharacterCreator_OverallFat;                             // 0x16F70(0x0004) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		float                                                      CharacterCreator_Fat01Chest;                             // 0x16F74(0x0004) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		class UAnimSequenceBase*                                   RefPose_ProneIdle;                                       // 0x16F78(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, NoDestructor, UObjectWrapper, HasGetValueTypeHash
+		class UAnimSequenceBase*                                   RefPose_ProneFwd;                                        // 0x16F80(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, NoDestructor, UObjectWrapper, HasGetValueTypeHash
+		float                                                      CharacterCreator_Fat01Belly;                             // 0x16F88(0x0004) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		bool                                                       PoseLayeringThrowItem;                                   // 0x16F8C(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		bool                                                       PoseLayering_Melee;                                      // 0x16F8D(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		unsigned char                                              UnknownData_HLSA[0x2];                                   // 0x16F8E(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		struct FRotator                                            RootRotOffset_Interpolated;                              // 0x16F90(0x0018) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor
+		double                                                     ItemBasedPhysicsFactor_Belly;                            // 0x16FA8(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		double                                                     ItemBasedPhysicsFactor_Breast;                           // 0x16FB0(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		bool                                                       PoseLayering_Emote;                                      // 0x16FB8(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		bool                                                       IsSitting;                                               // 0x16FB9(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		unsigned char                                              UnknownData_4VYD[0x2];                                   // 0x16FBA(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		float                                                      PL_EmoteRightArm;                                        // 0x16FBC(0x0004) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		float                                                      PL_EmoteLeftArm;                                         // 0x16FC0(0x0004) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		float                                                      PL_EmoteSpine;                                           // 0x16FC4(0x0004) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		bool                                                       PoseLayering_DisableProne;                               // 0x16FC8(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		unsigned char                                              UnknownData_V9N5[0x7];                                   // 0x16FC9(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		struct FVector                                             LWeaponShift;                                            // 0x16FD0(0x0018) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		struct FVector                                             RWeaponShift;                                            // 0x16FE8(0x0018) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		class UAnimMontage*                                        StepMontageToPlay;                                       // 0x17000(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, NoDestructor, HasGetValueTypeHash
+		bool                                                       IsOnSeatingStructure;                                    // 0x17008(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		unsigned char                                              UnknownData_1WX9[0x7];                                   // 0x17009(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		struct FAnimStruct_CardinalDirection4                      CrouchCardinalAnims;                                     // 0x17010(0x0020) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, NoDestructor, HasGetValueTypeHash
+		bool                                                       DisableBlink;                                            // 0x17030(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		unsigned char                                              UnknownData_YRDX[0x3];                                   // 0x17031(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		float                                                      DisableHandOverrides;                                    // 0x17034(0x0004) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		bool                                                       bWasFPV;                                                 // 0x17038(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		unsigned char                                              UnknownData_MJMT[0x3];                                   // 0x17039(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		int32_t                                                    UpdateIKInstantlyFrameCounter;                           // 0x1703C(0x0004) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		class UAnimMontage*                                        StepBigMontageToPlay;                                    // 0x17040(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, NoDestructor, HasGetValueTypeHash
+		float                                                      BoneModifierOverallHeight;                               // 0x17048(0x0004) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		unsigned char                                              UnknownData_I4YF[0x4];                                   // 0x1704C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		double                                                     WasMovingTimer;                                          // 0x17050(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		TArray<struct FRotator>                                    BlinkRotation;                                           // 0x17058(0x0010) Edit, BlueprintVisible, DisableEditOnInstance
+		float                                                      PoseLayerCurveValue;                                     // 0x17068(0x0004) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		unsigned char                                              UnknownData_2I5H[0x4];                                   // 0x1706C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		class UAnimSequenceBase*                                   ProneOverridePoseAlt;                                    // 0x17070(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, NoDestructor, UObjectWrapper, HasGetValueTypeHash
+		class UAnimSequenceBase*                                   ProneOverrideIdlePose;                                   // 0x17078(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, NoDestructor, UObjectWrapper, HasGetValueTypeHash
+		bool                                                       UsePronePoseLayering;                                    // 0x17080(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		unsigned char                                              UnknownData_GVOH[0x7];                                   // 0x17081(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		class UAnimSequenceBase*                                   ProneOverrideMovingPoseAlt;                              // 0x17088(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, NoDestructor, UObjectWrapper, HasGetValueTypeHash
+		class UAnimSequenceBase*                                   ProneOverrideMovingPose;                                 // 0x17090(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, NoDestructor, UObjectWrapper, HasGetValueTypeHash
+		bool                                                       ForcePronePoseLayering;                                  // 0x17098(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		bool                                                       ProneAO_HeadOnly;                                        // 0x17099(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		bool                                                       bRiderDisableAimOffset;                                  // 0x1709A(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		bool                                                       bUsingMountedWeaponAsPassenger;                          // 0x1709B(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		bool                                                       ForceAOHeadOnly;                                         // 0x1709C(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		unsigned char                                              UnknownData_EOOI[0x3];                                   // 0x1709D(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		double                                                     InterpLadderLocationZ;                                   // 0x170A0(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+
+	public:
+		void AnimGraph(struct FPoseLink* AnimGraph);
+		void UpdateCharacterCreatorValues(class AShooterCharacter* ShooterCharacter);
+		void DebugLeaning();
+		void InterpLayeringValues(double DeltaTime, double InterpSpeed);
+		void GetIKWorldInterpSpeed(double* Out);
+		void GroundIK(double DeltaTime);
+		void UpdatePoseLayering();
+		void GetLeanAmount(float DeltaTime, struct FVector2D* Output);
+		void IsPoseLayeringSlotActive();
+		void UpdateMoveAnim_Layering(const struct FAnimUpdateContext& Context, const struct FAnimNodeReference& Node);
+		void UpdateLayeringValues();
+		void UpdateWeaponIKNonThreadSafe();
+		void UpdateWeaponIK();
+		double GetPredictedStopDistance();
+		bool ShouldDistanceMatchStop();
+		void UpdateStopAnim(const struct FAnimUpdateContext& Context, const struct FAnimNodeReference& Node);
+		void SetUpStopAnim(const struct FAnimUpdateContext& Context, const struct FAnimNodeReference& Node);
+		void UpdateAccelerationData(double DeltaTime);
+		void UpdateMoveAnim(const struct FAnimUpdateContext& Context, const struct FAnimNodeReference& Node);
+		void UpdateVelocityData(double DeltaTime);
+		void BlueprintThreadSafeUpdateAnimation(float DeltaTime);
+		void SelectCardinalDirectionFromAngle(double Angle, double DeadZone, E_CardinalDirection4 CurrentDirection, bool UseCurrentDirection, E_CardinalDirection4* Direction);
+		void GliderSuit_CalcBlendspaceAxes(class AShooterCharacter* Character);
+		void UpdateGliderSuitVars(class AShooterCharacter* Character);
+		void GliderSuit_CalcAimOffsets(class AShooterCharacter* Character);
+		double MapVelocityToBlendSpace(class UMovementComponent* MovementComponent, const struct FVector& Vector);
+		void GetCharSequenceNew(class UAnimSequence* AnimSeqIn, class UAnimSequence** AnimSeqOut);
+		void GetCharMontageNew(class UAnimMontage* MontageIn, class UAnimMontage** MontageOut);
+		void BlueprintPlayAnimationEvent(class UAnimMontage* AnimationMontage, float PlayRate, bool bPauseOnFinish, float StartPosition, float* playedAnimLength);
+		void EvaluateGraphExposedInputs_ExecuteUbergraph_BaseHumanAnimBP_AnimGraphNode_TransitionResult_9938D1BF4EEC4D9043394EA7B8679FB7();
+		void EvaluateGraphExposedInputs_ExecuteUbergraph_BaseHumanAnimBP_AnimGraphNode_TransitionResult_BB3D89D5450B7DEE6F12A4A61858BED2();
+		void EvaluateGraphExposedInputs_ExecuteUbergraph_BaseHumanAnimBP_AnimGraphNode_TransitionResult_AA4928244AA38C74645005A09634874E();
+		void EvaluateGraphExposedInputs_ExecuteUbergraph_BaseHumanAnimBP_AnimGraphNode_TransitionResult_6D7A0BED4964804CBA91988BD03B3D60();
+		void EvaluateGraphExposedInputs_ExecuteUbergraph_BaseHumanAnimBP_AnimGraphNode_TransitionResult_75B5072D4E1970467933F5BB913B9B4B();
+		void EvaluateGraphExposedInputs_ExecuteUbergraph_BaseHumanAnimBP_AnimGraphNode_TransitionResult_A5CB0E6442D6561C90B91D99C6500B3B();
+		void EvaluateGraphExposedInputs_ExecuteUbergraph_BaseHumanAnimBP_AnimGraphNode_TransitionResult_BA304BA947DB9B3D679CFD916D88EBCE();
+		void EvaluateGraphExposedInputs_ExecuteUbergraph_BaseHumanAnimBP_AnimGraphNode_LayeredBoneBlend_615C9DE34EF09BA781FE40A4E94F22CE();
+		void EvaluateGraphExposedInputs_ExecuteUbergraph_BaseHumanAnimBP_AnimGraphNode_ModifyBone_29305B4049CD45DD1B835BB8C796C45B();
+		void EvaluateGraphExposedInputs_ExecuteUbergraph_BaseHumanAnimBP_AnimGraphNode_BlendListByBool_5EAF21824F92A3D0D44AA08F511F7013();
+		void EvaluateGraphExposedInputs_ExecuteUbergraph_BaseHumanAnimBP_AnimGraphNode_ControlRig_70F814824E1F2517DC3C5C9DBE08009C();
+		void EvaluateGraphExposedInputs_ExecuteUbergraph_BaseHumanAnimBP_AnimGraphNode_BlendListByBool_E50B10714CE2586D6FB68BA8D0EF2121();
+		void EvaluateGraphExposedInputs_ExecuteUbergraph_BaseHumanAnimBP_AnimGraphNode_BlendListByBool_F8C7F65041A2DBAE95E451BD53A2B640();
+		void EvaluateGraphExposedInputs_ExecuteUbergraph_BaseHumanAnimBP_AnimGraphNode_TwoWayBlend_F17C7EF747B351756943CF8954E814CA();
+		void EvaluateGraphExposedInputs_ExecuteUbergraph_BaseHumanAnimBP_AnimGraphNode_TwoWayBlend_02394B554084D0B34B6E7DA7519B758C();
+		void EvaluateGraphExposedInputs_ExecuteUbergraph_BaseHumanAnimBP_AnimGraphNode_BlendListByBool_E8E34A70472901D5B260E281AE4C4708();
+		void EvaluateGraphExposedInputs_ExecuteUbergraph_BaseHumanAnimBP_AnimGraphNode_BlendListByBool_2BAEBBB448F03B994C18C1B5A4C7E914();
+		void EvaluateGraphExposedInputs_ExecuteUbergraph_BaseHumanAnimBP_AnimGraphNode_LinkedAnimGraph_7EA4D54440723237DAFC2E8D1560D608();
+		void EvaluateGraphExposedInputs_ExecuteUbergraph_BaseHumanAnimBP_AnimGraphNode_BlendListByBool_873E9F10471227AE7DC010A9C3268AAD();
+		void EvaluateGraphExposedInputs_ExecuteUbergraph_BaseHumanAnimBP_AnimGraphNode_BlendListByBool_24D6F0A045D17884EC333A93C92118D3();
+		void EvaluateGraphExposedInputs_ExecuteUbergraph_BaseHumanAnimBP_AnimGraphNode_BlendListByBool_626584B448D31E19750278A0D43665CE();
+		void EvaluateGraphExposedInputs_ExecuteUbergraph_BaseHumanAnimBP_AnimGraphNode_RotationOffsetBlendSpace_F37F6E364733EA96DE10549DB5DA7970();
+		void EvaluateGraphExposedInputs_ExecuteUbergraph_BaseHumanAnimBP_AnimGraphNode_BlendListByBool_E6B944074706C39D2C5988B0F2E15851();
+		void EvaluateGraphExposedInputs_ExecuteUbergraph_BaseHumanAnimBP_AnimGraphNode_BlendListByBool_7B60D41A4B1D3D8C1B5E7E8163B6F01F();
+		void EvaluateGraphExposedInputs_ExecuteUbergraph_BaseHumanAnimBP_AnimGraphNode_BlendListByBool_FB8A227148C9C2643271CCA82DC4A28B();
+		void EvaluateGraphExposedInputs_ExecuteUbergraph_BaseHumanAnimBP_AnimGraphNode_BlendListByBool_842E80474F26231326E786B60EFC8268();
+		void EvaluateGraphExposedInputs_ExecuteUbergraph_BaseHumanAnimBP_AnimGraphNode_LayeredBoneBlend_327B02BD463CD9814901179AFEC05B3B();
+		void UpdateBotAnimation(class APawn* PawnOwner, double DeltaTime, const struct FVector& RootLocationOffset);
+		void BlueprintUpdateAnimation(float DeltaTimeX);
+		void EvaluateGraphExposedInputs_ExecuteUbergraph_BaseHumanAnimBP_AnimGraphNode_SequencePlayer_9DFE83F24F2F7B3151FD95B364D7A094();
+		void EvaluateGraphExposedInputs_ExecuteUbergraph_BaseHumanAnimBP_AnimGraphNode_TransitionResult_63CBC28444204464758893AE9DF5705A();
+		void EvaluateGraphExposedInputs_ExecuteUbergraph_BaseHumanAnimBP_AnimGraphNode_TransitionResult_AA33CDCC49044C52C2F7048F468ED36C();
+		void EvaluateGraphExposedInputs_ExecuteUbergraph_BaseHumanAnimBP_AnimGraphNode_TransitionResult_5EAFE44C41B5D6C1666AA792FC557459();
+		void EvaluateGraphExposedInputs_ExecuteUbergraph_BaseHumanAnimBP_AnimGraphNode_TransitionResult_A4199B444E6BF466F8E9EA9573D4293F();
+		void EvaluateGraphExposedInputs_ExecuteUbergraph_BaseHumanAnimBP_AnimGraphNode_SequencePlayer_45C7CCB04033D1FCA7A7268935C09DCC();
+		void EvaluateGraphExposedInputs_ExecuteUbergraph_BaseHumanAnimBP_AnimGraphNode_TransitionResult_B30C339C4722A19678123C938D56B5F4();
+		void EvaluateGraphExposedInputs_ExecuteUbergraph_BaseHumanAnimBP_AnimGraphNode_TransitionResult_A99BF2C74DEF6AA48F2A12809106DFD2();
+		void EvaluateGraphExposedInputs_ExecuteUbergraph_BaseHumanAnimBP_AnimGraphNode_TransitionResult_AF6FE91045EF076E8F723E94E3EE2C66();
+		void EvaluateGraphExposedInputs_ExecuteUbergraph_BaseHumanAnimBP_AnimGraphNode_TransitionResult_EEBC4A6A463B5DB7CC0554B4237279BA();
+		void EvaluateGraphExposedInputs_ExecuteUbergraph_BaseHumanAnimBP_AnimGraphNode_TransitionResult_906A4CF645BC965973E3E8941995C726();
+		void EvaluateGraphExposedInputs_ExecuteUbergraph_BaseHumanAnimBP_AnimGraphNode_TransitionResult_800BD7D244A0F9CDB5377FA5291BFEF5();
+		void BlueprintInitializeAnimation();
+		void EvaluateGraphExposedInputs_ExecuteUbergraph_BaseHumanAnimBP_AnimGraphNode_TransitionResult_190007EE4755BF9F8603878BA60CBE3D();
+		void EvaluateGraphExposedInputs_ExecuteUbergraph_BaseHumanAnimBP_AnimGraphNode_TransitionResult_E42788514DF362C1FC3B71915BAA4B08();
+		void OnCharacterStepped(const struct FVector& PrevLocation, const struct FVector& NewLocation);
+		void EvaluateGraphExposedInputs_ExecuteUbergraph_BaseHumanAnimBP_AnimGraphNode_ModifyBone_00E1374640FCA35E735FAAB2A6F5F011();
+		void EvaluateGraphExposedInputs_ExecuteUbergraph_BaseHumanAnimBP_AnimGraphNode_ModifyBone_657048094FA510B3E568948D273BF06C();
+		void ExecuteUbergraph_BaseHumanAnimBP(int32_t EntryPoint);
+		void NewEventDispatcher__DelegateSignature();
+		static UClass* StaticClass();
+	};
+
+}
+
+#ifdef _MSC_VER
+	#pragma pack(pop)
+#endif

@@ -1,0 +1,31 @@
+﻿#pragma once
+
+/**
+ * Name: Ark_Survival_Ascended
+ * Version: 0.1
+ */
+
+#ifdef _MSC_VER
+	#pragma pack(push, 0x01)
+#endif
+
+namespace CG
+{
+	// --------------------------------------------------
+	// # Classes
+	// --------------------------------------------------
+	/**
+	 * BlueprintGeneratedClass PrimalItemDye_Chartreuse_4_Chartreuse.PrimalItemDye_Chartreuse_4_Chartreuse_C
+	 * Size -> 0x0000 (FullSize[0x0ED0] - InheritedSize[0x0ED0])
+	 */
+	class UPrimalItemDye_Chartreuse_4_Chartreuse_C : public UPrimalItemDyeGeneric_C
+	{
+	public:
+		static UClass* StaticClass();
+	};
+
+}
+
+#ifdef _MSC_VER
+	#pragma pack(pop)
+#endif
